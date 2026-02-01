@@ -5,7 +5,7 @@
 ```sh
 # debug
 
-gdb ./main
+gdb
 
 (gdb) exit
 ```
