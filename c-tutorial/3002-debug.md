@@ -11,7 +11,7 @@ int main() {
 ```sh
 # compile
 
-cc -g -o main main.c
+cc -O0 -g -o main main.c
 ```
 
 ```sh
