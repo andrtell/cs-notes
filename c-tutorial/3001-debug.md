@@ -6,7 +6,10 @@
 # debug
 
 gdb
+```
+----
 
+```
 (gdb) exit
 ```
 
