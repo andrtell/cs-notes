@@ -18,7 +18,11 @@ cc -g -o main main.c
 # debug
 
 gdb ./main
+```
 
+----
+
+```
 (gdb) run
 
 [Inferior 1 (process 78037) exited normally]
