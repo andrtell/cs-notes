@@ -55,9 +55,7 @@ Breakpoint 1, main (argc=1, argv=0x7fffffffde38) at main.c:2
 ```
 
 ```gdb
-(gdb) clear main
-
-Deleted breakpoint 1
+(gdb) delete main
 ```
 
 ```gdb
