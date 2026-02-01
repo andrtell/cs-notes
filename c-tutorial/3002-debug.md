@@ -32,22 +32,22 @@ Breakpoint 1 at 0x1138: file main.c, line 2.
 ```
 
 ```gdb
-(gdb) run 1 2
+(gdb) run 1 $(pwd) $HOME
 
-Breakpoint 1, main (argc=3, argv=0x7fffffffde48) at main.c:2
+Breakpoint 1, main (argc=4, argv=0x7fffffffde48) at main.c:2
 2		int status = 0;
 ```
 
 ```gdb
 (gdb) print argc
 
-$1 = 3
+$1 = 4
 ```
 
 ```gdb
 (gdb) print *argv@argc
 
-$2 = {0x7fffffffe1c1 "/tmp/main", 0x7fffffffe1cb "1", 0x7fffffffe1cd "2"}
+$2 = {0x7fffffffe1c0 "/tmp/main", 0x7fffffffe1ca "1", 0x7fffffffe1cc "/tmp", 0x7fffffffe1d1 "/home/bob"}
 ```
 
 ```gdb
