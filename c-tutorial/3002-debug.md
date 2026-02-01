@@ -6,8 +6,7 @@
 // main.c
 
 int main(int argc, char *argv[]) {
-  int status = 0;
-  return status;
+  return 0;
 }
 ```
 
@@ -35,7 +34,7 @@ Breakpoint 1 at 0x1138: file main.c, line 2.
 (gdb) run 1 $(pwd) $HOME
 
 Breakpoint 1, main (argc=4, argv=0x7fffffffde48) at main.c:2
-2		int status = 0;
+2		return 0;
 ```
 
 ```gdb
