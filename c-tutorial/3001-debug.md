@@ -13,10 +13,10 @@ gdb
 (gdb) exit
 ```
 
-----
-
-From https://sourceware.org/gdb/current/onlinedocs/gdb.html/Invocation.html#Invocation
+```
+(gdb) quit
+```
 
 ```
-quit, exit or <Ctrl-d> to exit. 
+(gdb) <CTRL-D>
 ```
