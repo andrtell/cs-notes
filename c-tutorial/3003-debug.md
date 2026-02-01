@@ -38,13 +38,13 @@ Breakpoint 1, main (argc=4, argv=0x7fffffffde28) at main-1.c:2
 ```
 
 ```
-(gdb) p argc
+(gdb) print argc
 
 $1 = 4
 ```
 
 ```
-(gdb) p *argv@argc
+(gdb) print *argv@argc
 
 $2 = {0x7fffffffe1a1 "/tmp/main", 0x7fffffffe1ba "a", 0x7fffffffe1bc "b", 0x7fffffffe1be "c"}
 ```
