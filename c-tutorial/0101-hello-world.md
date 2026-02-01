@@ -1,4 +1,4 @@
-[Up]() [Prev](./0001-install.md) [Next](./0201-basic-memory.md)
+[Index]() [Prev](./0001-install.md) [Next](./0201-basic-memory.md)
 
 ----
 
