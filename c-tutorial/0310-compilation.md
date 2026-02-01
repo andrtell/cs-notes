@@ -92,7 +92,7 @@ From `man 1 ld`
     which uses them to locate shared objects at runtime.
 
     The  -rpath  option  is  also  used  when  locating  shared objects which
-    are needed by shared objects explicitly included in the link ...
+    are needed by shared objects explicitly included in the link
 
     [...]
 
