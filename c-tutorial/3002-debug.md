@@ -57,24 +57,6 @@ $2 = {0x7fffffffe1c0 "/tmp/main", 0x7fffffffe1ca "1", 0x7fffffffe1cc "/tmp", 0x7
 ```
 
 ```gdb
-(gdb) print status
-
-$3 = 32767
-```
-
-```gdb
-(gdb) next
-
-3		return status;
-```
-
-```gdb
-(gdb) print status
-
-$4 = 0
-```
-
-```gdb
 (gdb) continue
 
 [Inferior 1 (process 93334) exited normally]
