@@ -31,9 +31,9 @@ Breakpoint 1 at 0x1138: file main.c, line 2.
 ```
 
 ```
-(gdb) run a b c
+(gdb) run 1 2 3
 
-Breakpoint 1, main (argc=4, argv=0x7fffffffde28) at main-1.c:2
+Breakpoint 1, main (argc=4, argv=0x7fffffffde28) at main.c:2
 2		return 0;
 ```
 
@@ -46,5 +46,5 @@ $1 = 4
 ```
 (gdb) print *argv@argc
 
-$2 = {0x7fffffffe1a1 "/tmp/main", 0x7fffffffe1ba "a", 0x7fffffffe1bc "b", 0x7fffffffe1be "c"}
+$2 = {0x7fffffffe1a1 "/tmp/main", 0x7fffffffe1ba "1", 0x7fffffffe1bc "2", 0x7fffffffe1be "3"}
 ```
