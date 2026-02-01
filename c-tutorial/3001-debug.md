@@ -65,7 +65,3 @@ Breakpoint 1, main (argc=1, argv=0x7fffffffde38) at main.c:2
 
 [Inferior 1 (process 92427) exited normally]
 ```
-
-```gdb
-(gdb) exit
-```
