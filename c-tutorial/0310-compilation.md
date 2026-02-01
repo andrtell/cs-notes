@@ -94,7 +94,7 @@ From `man 1 ld`
     The  -rpath  option  is  also  used  when  locating  shared objects which
     are needed by shared objects explicitly included in the link ...
 
-    ...
+    [...]
 
     If -rpath is not used when linking an ELF executable, the contents of
     the environment variable "LD_RUN_PATH" will be used if it is defined.
