@@ -2,26 +2,6 @@
 
 ----
 
-```c
-/// main.c
-
-#include <stdio.h>
-#include <stdlib.h>
-
-int main(void) {
-  int a = rand() % 11;
-  int b = rand() % 11;
-  int c = a + b;
-  printf("%d + %d = %d\n", a, b, c);
-}
-```
-
-```sh
-# compile
-
-cc -g -o main main.c
-```
-
 ```sh
 # debug
 
