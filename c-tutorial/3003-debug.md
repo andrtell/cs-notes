@@ -19,7 +19,7 @@ cc -g -o main main.c
 ```sh
 # debug
 
-gdb ./main
+gdb -se ./main
 ```
 
 ----
@@ -48,5 +48,3 @@ $1 = 4
 
 $2 = {0x7fffffffe1a1 "/tmp/main", 0x7fffffffe1ba "a", 0x7fffffffe1bc "b", 0x7fffffffe1be "c"}
 ```
-
-----
