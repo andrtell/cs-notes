@@ -68,8 +68,3 @@ Breakpoint 1, main () at main.c:5
 
 $2 = 0x7fffffffe3a0 "C"
 ```
-
-```gdb
-(gdb) quit
-```
-
