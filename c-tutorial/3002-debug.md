@@ -7,8 +7,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main(void) {
+  srand(time(NULL));
   int a = rand() % 11;
   int b = rand() % 11;
   int c = a + b;
