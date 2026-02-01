@@ -12,7 +12,7 @@ int main(void) {
   int a = rand() % 11;
   int b = rand() % 11;
   int c = a + b;
-  printf("%d + %d = %d\n", a, b, c);
+  return c;
 }
 ```
 
