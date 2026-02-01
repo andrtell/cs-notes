@@ -1,4 +1,4 @@
-[Up]() [Prev](./0301-compilation.md) [Next](./0303-compilation.md)
+[Index](./index.md) [Prev](./0301-compilation.md) [Next](./0303-compilation.md)
 
 ----
 
