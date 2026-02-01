@@ -39,6 +39,12 @@ Breakpoint 1, main (argc=4, argv=0x7fffffffde48) at main.c:2
 ```
 
 ```gdb
+(gdb) show args
+
+Argument list to give program being debugged when it is started is "1 $(pwd) $HOME".
+```
+
+```gdb
 (gdb) print argc
 
 $1 = 4
