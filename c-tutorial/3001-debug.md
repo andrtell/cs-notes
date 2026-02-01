@@ -15,7 +15,5 @@ gdb
 From https://sourceware.org/gdb/current/onlinedocs/gdb.html/Invocation.html#Invocation
 
 ```
-type ‘gdb’ to start GDB.
-
-type quit, exit or Ctrl-d to exit. 
+quit, exit or <Ctrl-d> to exit. 
 ```
