@@ -17,7 +17,7 @@ cc -g -o main main.c
 ```sh
 # debug
 
-gdb ./main
+gdb -se ./main
 ```
 
 ----
