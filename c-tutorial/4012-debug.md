@@ -1,4 +1,4 @@
-[Index](./index.md) [Prev](./4011-debug.md) [Next](./4013-debug.md)
+[Index](./index.md) [Prev](./4011-debug.md) [Next](./4014-debug.md)
 
 ----
 
@@ -34,6 +34,10 @@ Breakpoint 1 at 0x1131: file main.c, line 4.
 (gdb) delete 1
 ```
 
+```gdb
+(gdb) clear main
+```
+
 ----
 
 From [GDB Docs/Delete-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Delete-Breaks.html#Delete-Breaks)
@@ -46,4 +50,10 @@ delete [breakpoints] [list…]
 
     If no argument is specified, delete all breakpoints, watchpoints,
     tracepoints, and catchpoints.
+```
+
+```
+clear <locspec>
+
+    Delete any breakpoint with a code location that corresponds to <locspec>. 
 ```
