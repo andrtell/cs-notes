@@ -16,6 +16,8 @@ int main(void) {
 }
 ```
 
+----
+
 ```sh
 # compile
 cc -O0 -g -o main main.c
