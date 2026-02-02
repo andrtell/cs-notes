@@ -27,7 +27,7 @@ gdb ./main
 
 [Inferior 1 (process 130610) exited normally]
 
-(gdb) break main                                # (or main.c:main or 4 or main.c:4)
+(gdb) break main                                # or: [ main.c:main | 4 | main.c:4 ] 
 Breakpoint 1 at 0x1131: file main.c, line 4.
 
 (gdb) run
@@ -37,6 +37,12 @@ Breakpoint 1, main () at main.c:4
 (gdb) info break
 Num     Type           Disp Enb Address            What
 1       breakpoint     keep y   0x0000000000001131 in main at main.c:4
+
+(gdb) delete 1                                  # or: clear main
+
+(gdb) run
+
+[Inferior 1 (process 130610) exited normally]
 ```
 
 ----
@@ -65,4 +71,16 @@ info break [list…]
 
     Print a table of all breakpoints, watchpoints, tracepoints,
     and catchpoints set and not deleted.
+```
+
+From [GDB Docs/Delete-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Delete-Breaks.html#Delete-Breaks)
+
+```
+delete [breakpoints] [list…]
+
+    Delete the breakpoints, watchpoints, tracepoints, or catchpoints
+    of the breakpoint list specified as argument.
+
+    If no argument is specified, delete all breakpoints, watchpoints,
+    tracepoints, and catchpoints.
 ```
