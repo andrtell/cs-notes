@@ -84,3 +84,9 @@ delete [breakpoints] [list…]
     If no argument is specified, delete all breakpoints, watchpoints,
     tracepoints, and catchpoints.
 ```
+
+```
+clear <locspec>
+
+    Delete any breakpoint with a code location that corresponds to <locspec>. 
+```
