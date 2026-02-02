@@ -64,6 +64,8 @@ disable [breakpoints] [list…]
     Disable the specified breakpoints—or all breakpoints, if none are listed.
 ```
 
+From [GDB Docs/Disabling](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Disabling.html#Disabling)
+
 ```
 enable [breakpoints] [list…]
 
