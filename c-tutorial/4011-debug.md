@@ -38,7 +38,7 @@ Breakpoint 1 at 0x1131: file main.c, line 4.
 
 ----
 
-From [GDB Doc/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)
+From [GDB Docs/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)
 
 ```
 rbreak <regex>
