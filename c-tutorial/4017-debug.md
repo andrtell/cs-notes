@@ -5,56 +5,53 @@
 ```c
 // main.c
 
-int a() {
-	int v = 1
-	return v;
+int add(int a, int b) {
+	int sum = a + b;
+	return sum;
 }
 
-int b() {
-	int p = a();
-	int q = p + 1;
-	return q;
+int times2(int c) {
+	return add(c, c);
 }
 
 int main() {
-	int n = b(); 
+	int val = 2;
+	int res = times2(val);
 	return 0;
 }
 ```
 
+----
+
 ```sh
 # compile
-
 cc -O0 -g -o main main.c
-```
 
-```sh
 # debug
-
 gdb ./main
 ```
 
 ----
 
-```gdb
+```
 (gdb) start
 
-Temporary breakpoint 1, main () at main.c:15
-15		int n = b();
-```
+Temporary breakpoint 1, main () at main.c:13
+13		int val = 2;
 
-```gdb
 (gdb) step
 
-b () at main.c:9
-9		int p = a();
-```
+14		int res = times2(val);
 
-```gdb
 (gdb) step
 
-a () at main.c:4
-4		int v = 1;
+times2 (c=2) at main.c:9
+9		return add(c, c);
+
+(gdb) step
+
+add (a=2, b=2) at main.c:4
+4		int sum = a + b;
 ```
 
 ----
