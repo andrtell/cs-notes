@@ -48,6 +48,14 @@ Num     Type           Disp Enb Address            What
 1       breakpoint     keep y   0x0000000000001131 in main at main.c:4
 ```
 
+__start__
+
+```
+(gdb) start
+Temporary breakpoint 1, main () at main.c:4
+4		return 0;
+```
+
 __enable / disable__
 
 ```
