@@ -1,4 +1,4 @@
-[Index](./index.md) [Prev](./4014-debug.md) [Next](./4016-debug.md)
+[Index](./index.md) [Prev](./4003-debug.md) [Next](./4005-debug.md)
 
 ----
 
@@ -26,6 +26,8 @@ gdb ./main
 
 ----
 
+__watch__
+
 ```
 (gdb) start
 Temporary breakpoint 1, main () at main.c:4
@@ -35,10 +37,24 @@ Temporary breakpoint 1, main () at main.c:4
 Hardware watchpoint 2: product
 
 (gdb) continue
+...
+
 Hardware watchpoint 2: product
 
 Old value = -8584
 New value = 1
+main () at main.c:5
+5		for (int n = 1; n <= 10; n++) {
+
+(gdb) continue
+...
+
+Hardware watchpoint 2: product
+
+Old value = 1
+New value = 2
+main () at main.c:5
+5		for (int n = 1; n <= 10; n++) {
 ```
 
 ----
