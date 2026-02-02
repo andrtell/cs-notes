@@ -22,27 +22,66 @@ gdb ./main
 
 ----
 
+__run__
+
 ```
 (gdb) run
-
 [Inferior 1 (process 130610) exited normally]
+```
 
+__break__
+
+```
 (gdb) break main                                # or: [ main.c:main | 4 | main.c:4 ] 
 Breakpoint 1 at 0x1131: file main.c, line 4.
 
 (gdb) run
 Breakpoint 1, main () at main.c:4
 4		return 0;
+```
 
+__info break__
+
+```
 (gdb) info break
 Num     Type           Disp Enb Address            What
 1       breakpoint     keep y   0x0000000000001131 in main at main.c:4
+```
 
-(gdb) delete 1                                  # or: clear main
+__enable / disable__
+
+```
+(gdb) break main
+Breakpoint 1 at 0x1131: file main.c, line 4.
+
+(gdb) disable 1
 
 (gdb) run
+[Inferior 1 (process 130610) exited normally]
 
-[Inferior 1 (process 130612) exited normally]
+(gdb) enable 1
+
+(gdb) run
+Breakpoint 1, main () at main.c:4
+4		return 0;
+```
+
+__delete__
+
+```
+(gdb) break main
+Breakpoint 1 at 0x1131: file main.c, line 4.
+
+(gdb) delete 1
+```
+
+__clear__
+
+```
+(gdb) break main
+Breakpoint 1 at 0x1131: file main.c, line 4.
+
+(gdb) clear main
 ```
 
 ----
