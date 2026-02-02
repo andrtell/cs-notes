@@ -82,3 +82,11 @@ $1 = 1
 
 [Inferior 1 (process 113247) killed]
 ```
+
+----
+
+Allow attach until next boot
+
+```sh
+echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+```
