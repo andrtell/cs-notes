@@ -21,6 +21,7 @@ cc -O0 -g -o main main.c
 
 gdb -s ./main -e ./main  # or
 gdb -se ./main           # or
+
 gdb ./main
 ```
 
