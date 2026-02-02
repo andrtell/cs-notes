@@ -85,7 +85,7 @@ $1 = 1
 
 ----
 
-Allow attach until next boot
+Allow attach until next boot.
 
 ```sh
 echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
