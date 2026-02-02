@@ -78,3 +78,26 @@ delete [breakpoints] [list…]
     tracepoints, and catchpoints.
 ```
 
+From [GDB Docs/Disabling](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Disabling.html#Disabling)
+
+```
+disable [breakpoints] [list…]
+dis
+
+    Disable the specified breakpoints—or all breakpoints, if none are listed.
+    A disabled breakpoint has no effect but is not forgotten.
+
+    All options such as ignore-counts, conditions and commands are remembered
+    in case the breakpoint is enabled again later.
+
+    You may abbreviate disable as dis.
+```
+
+```
+enable [breakpoints] [list…]
+
+    Enable the specified breakpoints (or all defined breakpoints).
+
+    They become effective once again in stopping your program.
+```
+
