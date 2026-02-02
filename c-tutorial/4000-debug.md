@@ -103,6 +103,13 @@ r
     Use the run command to start your program under GDB.
 ```
 
+```
+start
+
+    The ‘start’ command does the equivalent of setting a temporary breakpoint at
+    the beginning of the main procedure and then invoking the ‘run’ command.
+```
+
 From [GDB Docs/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks).
 See [GDB Docs/Linespec-Locations](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Linespec-Locations.html#Linespec-Locations).
 
