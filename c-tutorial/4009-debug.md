@@ -1,4 +1,4 @@
-[Index](./index.md) [Prev](./4008-debug.md) [Next](./4010-debug.md)
+[Index](./index.md) [Prev](./4005-debug.md) [Next](./4010-debug.md)
 
 ----
 
