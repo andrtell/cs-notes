@@ -22,14 +22,12 @@ gdb ./main
 
 ----
 
-```gdb
+```
 (gdb) start
-
 Temporary breakpoint 1, main () at main.c:4
 4		int product = 1;
 
 (gdb) continue
-
 [Inferior 1 (process 148246) exited normally]
 ```
 
