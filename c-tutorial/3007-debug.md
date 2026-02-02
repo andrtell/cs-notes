@@ -65,66 +65,41 @@ Breakpoint 3 at 0x1157: file main.c, line 6.
 ```
 
 ```gdb
-(gdb) break 8 if sum > 35
-Breakpoint 4 at 0x1166: file main.c, line 8.
-```
-
-```gdb
 (gdb) info break
 
 Num     Type           Disp Enb Address            What
 1       breakpoint     keep y   0x0000000000001189 in main at main.c:14
 2       breakpoint     keep y   0x00000000000011a9 in main at main.c:18
 3       breakpoint     keep y   0x0000000000001157 in sigma at main.c:6
-4       breakpoint     keep y   0x0000000000001166 in sigma at main.c:8
-        stop only if sum > 35
+```
+
+```gdb
+(gdb) delete
+```
+
+```gdb
+(gdb) info break
+
+No breakpoints, watchpoints, tracepoints, or catchpoints.
+```
+
+```gdb
+(gdb) break 8 if sum > 37
+
+Breakpoint 4 at 0x1166: file main.c, line 8.
 ```
 
 ```gdb
 (gdb) run
 
-Breakpoint 1, main () at main.c:14
-14		int from = 1;
-```
-
-```gdb
-(gdb) continue
-
-Breakpoint 3, sigma (from=1, to=10) at main.c:6
-6		int sum = 0;
-```
-
-```gdb
-(gdb) continue
-
-Breakpoint 4, sigma (from=1, to=10) at main.c:8
+Breakpoint 8, sigma (from=1, to=10) at main.c:8
 8			sum += n;
 ```
 
 ```gdb
 (gdb) p sum
 
-$1 = 36
-```
-
-```gdb
-(gdb) continue
-
-Breakpoint 4, sigma (from=1, to=10) at main.c:8
-8			sum += n;
-```
-
-```gdb
-(gdb) p sum
-
-$2 = 45
-```
-
-```gdb
-(gdb) continue
-
-Breakpoint 2, main () at main.c:18
-18		printf("The sum of all integers from %d to %d is %d\n", from, to, sum);
+$1 = 45
 ```
 
 ```gdb
