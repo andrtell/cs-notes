@@ -6,23 +6,15 @@
 // main.c
 
 int main(void) {
-  int sum = 0;
-
-  for (int n = 1; n <= 10; n++) {
-    sum += n;
-  }
-
   return 0;
 }
 ```
 
 ```sh
 # compile
-
 cc -O0 -g -o main main.c
 
 # debug
-
 gdb ./main
 ```
 
@@ -30,15 +22,11 @@ gdb ./main
 
 ```gdb
 (gdb) break main
-(gdb) break 7
-```
 
-```gdb
 (gdb) info break
 
 Num     Type           Disp Enb Address            What
 1       breakpoint     keep y   0x0000000000001131 in main at main.c:4
-2       breakpoint     keep y   0x0000000000001141 in main at main.c:7
 ```
 
 ----
