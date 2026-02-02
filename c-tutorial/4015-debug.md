@@ -28,16 +28,13 @@ gdb ./main
 
 ```
 (gdb) start
-
 Temporary breakpoint 1, main () at main.c:4
 4		int product = 1;
 
 (gdb) watch product
-
 Hardware watchpoint 2: product
 
 (gdb) continue
-
 Hardware watchpoint 2: product
 
 Old value = -8584
