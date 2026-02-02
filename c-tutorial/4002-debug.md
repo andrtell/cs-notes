@@ -22,6 +22,8 @@ gdb ./main
 
 ----
 
+__start__
+
 ```
 (gdb) start
 Temporary breakpoint 1, main () at main.c:4
