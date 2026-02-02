@@ -77,5 +77,5 @@ Num     Type           Disp Enb Address            What
 2       breakpoint     keep y   0x00000000000011a9 in main at main.c:18
 3       breakpoint     keep y   0x0000000000001157 in sigma at main.c:6
 4       breakpoint     keep y   0x0000000000001166 in sigma at main.c:8
-	stop only if sum > 35
+        stop only if sum > 35
 ```
