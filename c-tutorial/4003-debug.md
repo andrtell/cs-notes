@@ -1,4 +1,4 @@
-[Index](./index.md) [Prev](./4003-debug.md) [Next](./4005-debug.md)
+[Index](./index.md) [Prev](./4002-debug.md) [Next](./4004-debug.md)
 
 ----
 
@@ -33,6 +33,8 @@ gdb ./main
 
 ----
 
+__step__
+
 ```
 (gdb) start
 Temporary breakpoint 1, main () at main.c:13
@@ -48,21 +50,32 @@ times2 (c=2) at main.c:9
 (gdb) step
 add (a=2, b=2) at main.c:4
 4		int sum = a + b;
+```
 
+__backtrace__
+
+```
 (gdb) backtrace
 #0  add (a=2, b=2) at main.c:4
 #1  0x0000555555555165 in times2 (c=2) at main.c:9
 #2  0x0000555555555184 in main () at main.c:14
+```
 
+__next__
+
+```
 (gdb) next
 5		return sum;
+```
 
+__continue__
+
+```
 (gdb) continue
 [Inferior 1 (process 153680) exited normally]
 ```
 
 ----
-
 
 From [GDB Docs/Continuing-and-Stepping](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Continuing-and-Stepping.html#Continuing-and-Stepping)
 
