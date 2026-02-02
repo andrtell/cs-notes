@@ -24,7 +24,6 @@ gdb ./main
 
 ```gdb
 (gdb) rbreak ^main
-
 Breakpoint 1 at 0x1131: file main.c, line 4.
 ```
 
