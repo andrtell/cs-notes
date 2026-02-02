@@ -30,18 +30,14 @@ gdb ./main
 Breakpoint 1 at 0x1131: file main.c, line 4.
 ```
 
+```gdb
+(gdb) break main.c:main
+
+Breakpoint 1 at 0x1131: file main.c, line 4.
+```
+
+
+
 ----
 
-From [GDB Docs/Linespec-Locations](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Linespec-Locations.html#Linespec-Locations)
-
-```
-<function> 
-
-    Specifies the line that begins the body of the function <function>.
-```
-
-----
-
-```
-Note: <function> is a <linespec> is a <locspec> used in: break <locspec>
-```
+See [GDB Docs/Linespec-Locations](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Linespec-Locations.html#Linespec-Locations)
