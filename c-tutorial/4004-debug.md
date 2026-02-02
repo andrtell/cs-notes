@@ -67,9 +67,25 @@ add (a=2, b=2) at main.c:4
 From [GDB Docs/Continuing-and-Stepping](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Continuing-and-Stepping.html#Continuing-and-Stepping)
 
 ```
+step
+
+    Continue running your program until control reaches a different source line. [...]
+```
+
+```
 continue [ignore-count]
 c        [ignore-count]
 fg       [ignore-count]
 
     Resume program execution, at the address where your program last stopped. [...]
+```
+
+
+From [GDB Docs/Backtrace](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Backtrace.html#Backtrace)
+
+```
+backtrace [option]... [qualifier]... [count]
+bt        [option]... [qualifier]... [count]
+
+    Print the backtrace of the entire stack. [...]
 ```
