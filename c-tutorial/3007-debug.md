@@ -79,3 +79,46 @@ Num     Type           Disp Enb Address            What
 4       breakpoint     keep y   0x0000000000001166 in sigma at main.c:8
         stop only if sum > 35
 ```
+
+```gdb
+(gdb) run
+
+Breakpoint 1, main () at main.c:14
+14		int from = 1;
+
+(gdb) continue
+
+Breakpoint 3, sigma (from=1, to=10) at main.c:6
+6		int sum = 0;
+
+(gdb) continue
+
+Breakpoint 4, sigma (from=1, to=10) at main.c:8
+8			sum += n;
+
+(gdb) p sum
+
+$1 = 36
+
+(gdb) continue
+
+Breakpoint 4, sigma (from=1, to=10) at main.c:8
+8			sum += n;
+
+(gdb) p sum
+
+$2 = 45
+
+(gdb) continue
+
+Breakpoint 2, main () at main.c:18
+18		printf("The sum of all integers from %d to %d is %d\n", from, to, sum);
+
+(gdb) continue
+
+The sum of all integers from 1 to 10 is 55
+
+[Inferior 1 (process 126255) exited normally]
+```
+
+
