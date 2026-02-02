@@ -50,7 +50,7 @@ break <locspec>
 
 From [GDB Docs/Linespec-Locations](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Linespec-Locations.html#Linespec-Locations)
 
-(excerpt with edits)
+(excerpt with edits of original)
 
 ```
 <linenum>
@@ -58,6 +58,8 @@ From [GDB Docs/Linespec-Locations](https://sourceware.org/gdb/current/onlinedocs
     Specifies the line number <linenum> of the current source file.
 
     example: (gdb) break 2
+
+[...]
 
 <filename>:<linenum>
 
