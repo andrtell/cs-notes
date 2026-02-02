@@ -50,3 +50,5 @@ break <locspec>
     Set a breakpoint at all the code locations in your program
     that result from resolving the given <locspec>. [...]
 ```
+
+See [GDB Docs/Linespec-Locations](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Linespec-Locations.html#Linespec-Locations)
