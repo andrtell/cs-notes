@@ -37,12 +37,31 @@ Breakpoint 1, main () at main.c:4
 4		return 0;
 ```
 
+__break .. if__
+
+```
+(gdb) break 6 if sum > 3
+Breakpoint 2 at 0x1141: file main.c, line 6.
+
+(gdb) continue
+Breakpoint 2, main () at main.c:6
+6	    sum += 1;
+
+(gdb) info locals
+i = 5
+sum = 4
+```
+
 __info break__
 
 ```
 (gdb) info break
 Num     Type           Disp Enb Address            What
-1       breakpoint     keep y   0x0000000000001131 in main at main.c:4
+1       breakpoint     keep y   0x0000555555555131 in main at main.c:4
+        breakpoint already hit 1 time
+2       breakpoint     keep y   0x0000555555555141 in main at main.c:6
+        stop only if sum > 3
+        breakpoint already hit 1 time
 ```
 
 ----
