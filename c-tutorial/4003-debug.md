@@ -26,8 +26,11 @@ gdb ./main
 
 ```
 (gdb) break main
+            main.c:main
+            4
+            main.c:4
 
-Breakpoint 1 at 0x555555555131: file main.c, line 4.
+Breakpoint 1 at 0x1131: file main.c, line 4.
 ```
 
 ```
