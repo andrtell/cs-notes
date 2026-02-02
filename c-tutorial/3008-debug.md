@@ -31,14 +31,6 @@ cc -O0 -g -o main main.c
 ```
 
 ```sh
-# run
-
-./main
-
-The sum of all integers from 1 to 10 is 55
-```
-
-```sh
 # debug
 
 gdb -se ./main
