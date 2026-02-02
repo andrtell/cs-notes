@@ -35,26 +35,21 @@ gdb ./main
 
 ```
 (gdb) start
-
 Temporary breakpoint 1, main () at main.c:13
 13		int val = 2;
 
 (gdb) step
-
 14		int res = times2(val);
 
 (gdb) step
-
 times2 (c=2) at main.c:9
 9		return add(c, c);
 
 (gdb) step
-
 add (a=2, b=2) at main.c:4
 4		int sum = a + b;
 
 (gdb) backtrace
-
 #0  add (a=2, b=2) at main.c:4
 #1  0x0000555555555165 in times2 (c=2) at main.c:9
 #2  0x0000555555555184 in main () at main.c:14
