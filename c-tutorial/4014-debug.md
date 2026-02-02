@@ -35,24 +35,8 @@ Breakpoint 1 at 0x1131: file main.c, line 4.
 ```
 
 ```gdb
-(gbd) run
-
-[Inferior 1 (process 144780) exited normally]
+(gdb) enable 1
 ```
-
-```gdb
-(gdb) enable once 1
-```
-
-```gdb
-(gdb) run
-
-Breakpoint 1, main () at main.c:4
-4		return 0;
-```
-
-
-
 
 ----
 
