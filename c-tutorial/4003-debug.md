@@ -26,6 +26,8 @@ gdb ./main
 
 ----
 
+__break ... if__
+
 ```
 (gdb) break 6 if sum > 40
 Breakpoint 1 at 0x1141: file main.c, line 6.
@@ -33,7 +35,11 @@ Breakpoint 1 at 0x1141: file main.c, line 6.
 (gdb) run
 Breakpoint 1, main () at main.c:6
 6	    sum += n;
+```
 
+__info locals__
+
+```
 (gdb) info locals
 n = 10
 sum = 45
