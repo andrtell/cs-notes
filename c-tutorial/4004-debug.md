@@ -63,23 +63,13 @@ add (a=2, b=2) at main.c:4
 
 ----
 
-From [GDB Docs/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)
+
+From [GDB Docs/Continuing-and-Stepping](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Continuing-and-Stepping.html#Continuing-and-Stepping)
 
 ```
-break ... if <cond>
+continue [ignore-count]
+c        [ignore-count]
+fg       [ignore-count]
 
-    Set a breakpoint with condition <cond>;
-    evaluate the expression cond each time the breakpoint is reached, and
-    stop only if the value is nonzero—that is, if cond evaluates as true.
-```
-
-From [GDB Docs/Frame-Info](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Frame-Info.html#Frame-Info)
-
-```
-info locals [-q]
-
-    Print the local variables of the selected frame, each on a separate line.
-
-	These are all variables (declared either static or automatic) accessible
-	at the point of execution of the selected frame.
+    Resume program execution, at the address where your program last stopped. [...]
 ```
