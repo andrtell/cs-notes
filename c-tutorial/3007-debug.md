@@ -85,35 +85,49 @@ Num     Type           Disp Enb Address            What
 
 Breakpoint 1, main () at main.c:14
 14		int from = 1;
+```
 
+```gdb
 (gdb) continue
 
 Breakpoint 3, sigma (from=1, to=10) at main.c:6
 6		int sum = 0;
+```
 
+```gdb
 (gdb) continue
 
 Breakpoint 4, sigma (from=1, to=10) at main.c:8
 8			sum += n;
+```
 
+```gdb
 (gdb) p sum
 
 $1 = 36
+```
 
+```gdb
 (gdb) continue
 
 Breakpoint 4, sigma (from=1, to=10) at main.c:8
 8			sum += n;
+```
 
+```gdb
 (gdb) p sum
 
 $2 = 45
+```
 
+```gdb
 (gdb) continue
 
 Breakpoint 2, main () at main.c:18
 18		printf("The sum of all integers from %d to %d is %d\n", from, to, sum);
+```
 
+```gdb
 (gdb) continue
 
 The sum of all integers from 1 to 10 is 55
