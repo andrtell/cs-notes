@@ -24,13 +24,13 @@ gdb ./main
 
 ----
 
-```gdb
+```
 (gdb) break main
 
 Breakpoint 1 at 0x555555555131: file main.c, line 4.
 ```
 
-```gdb
+```
 (gdb) run
 
 Breakpoint 1, main () at main.c:4
