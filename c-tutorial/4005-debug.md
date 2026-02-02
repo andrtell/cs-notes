@@ -30,27 +30,13 @@ gdb ./main
 Breakpoint 1 at 0x1131: file main.c, line 2.
 ```
 
-```gdb
-(gdb) run
-
-Breakpoint 1, main () at main.c:2
-2		return 0;
-```
-
 ----
-
-From [GDB Docs/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)
-
-```
-break <locspec>
-
-    Set a breakpoint at all the code locations in your program
-    that result from resolving the given <locspec>
-```
 
 From [GDB Docs/Linespec-Locations](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Linespec-Locations.html#Linespec-Locations)
 
-(edited excerpt of original)
+```
+<linenum> is <linespec> is <locspec>
+```
 
 ```
 <linenum>
