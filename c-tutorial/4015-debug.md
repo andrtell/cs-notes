@@ -50,27 +50,6 @@ Old value = -8584
 New value = 1
 ```
 
-```gdb
-(gdb) continue
-
-Hardware watchpoint 2: product
-
-Old value = 1
-New value = 2
-```
-
-```gdb
-(gdb) info watchpoints
-
-Num     Type           Disp Enb Address            What
-2       hw watchpoint  keep y                      product
-		breakpoint already hit 2 times
-```
-
-```gdb
-(gdb) delete 2
-```
-
 ----
 
 From [GDB Docs/Set-Watchpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Watchpoints.html#Set-Watchpoints)
