@@ -52,7 +52,7 @@ Num     Type           Disp Enb Address            What
 
 ----
 
-From [GDB Doc/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)
+From [GDB Docs/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)
 
 ```
 info break [list…]
