@@ -49,10 +49,14 @@ Started with PID: 113247
 ```sh
 # debug (in second terminal)
 
-gdb -p 113247 -s ./main
+gdb
 ```
 
 ----
+
+```gdb
+(gdb) attach 113247
+```
 
 ```gdb
 (gdb) break main.c:22
