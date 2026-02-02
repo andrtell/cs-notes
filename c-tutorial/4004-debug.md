@@ -73,6 +73,14 @@ step
 ```
 
 ```
+next [count]
+
+    Continue to the next source line in the current (innermost) stack frame.
+    This is similar to step, but function calls that appear within the line
+    of code are executed without stopping.
+```
+
+```
 continue [ignore-count]
 c        [ignore-count]
 fg       [ignore-count]
