@@ -34,12 +34,6 @@ Breakpoint 1 at 0x1131: file main.c, line 4.
 (gdb) clear main
 ```
 
-```gdb
-(gdb) info break
-
-No breakpoints, watchpoints, tracepoints, or catchpoints.
-```
-
 ----
 
 From [GDB Docs/Delete-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Delete-Breaks.html#Delete-Breaks)
