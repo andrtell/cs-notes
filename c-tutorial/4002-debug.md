@@ -24,7 +24,7 @@ gdb ./main
 
 ----
 
-```gdb
+```
 (gdb) run
 
 [Inferior 1 (process 130610) exited normally]
