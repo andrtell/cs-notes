@@ -6,12 +6,6 @@
 // main.c
 
 int main(void) {
-  int sum = 0;
-
-  for (int n = 1; n <= 10; n++) {
-    sum += n;
-  }
-
   return 0;
 }
 ```
