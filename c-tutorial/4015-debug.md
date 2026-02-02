@@ -60,9 +60,3 @@ watch [-l|-location] expr [thread thread-id] [mask maskvalue] [task task-id]
     Set a watchpoint for an expression. GDB will break when the expression expr
     is written into by the program and its value changes.
 ```
-
-```
-info watchpoints [list…]
-
-    This command prints a list of watchpoints, using the same format as info break (see Set Breaks).
-```
