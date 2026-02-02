@@ -35,7 +35,7 @@ From [GDB Docs/Starting](https://sourceware.org/gdb/current/onlinedocs/gdb.html/
 ```
 start
 
-The ‘start’ command does the equivalent of setting a temporary breakpoint at
-the beginning of the main procedure and then invoking the ‘run’ command.
+    The ‘start’ command does the equivalent of setting a temporary breakpoint at
+    the beginning of the main procedure and then invoking the ‘run’ command.
 ```
 
