@@ -22,9 +22,8 @@ gdb ./main
 
 ----
 
-```gdb
+```
 (gdb) list
-
 1	int main(void) {
 2		return 0;
 3	}
