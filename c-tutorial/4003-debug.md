@@ -27,13 +27,13 @@ gdb ./main
 ```gdb
 (gdb) break main
 
-Breakpoint 1 at 0x1131: file main2.c, line 2.
+Breakpoint 1 at 0x1131: file main.c, line 2.
 ```
 
 ```gdb
 (gdb) run
 
-Breakpoint 1, main () at main2.c:2
+Breakpoint 1, main () at main.c:2
 2		return 0;
 ```
 
