@@ -77,6 +77,14 @@ break <locspec>
 ```
 
 ```
+break ... if cond
+
+    Set a breakpoint with condition cond;
+    evaluate the expression cond each time the breakpoint is reached,
+    and stop only if the value is nonzero—that is, if cond evaluates as true.
+```
+
+```
 info break [list…]
 
     Print a table of all breakpoints, watchpoints, tracepoints,
