@@ -18,11 +18,9 @@ int main(void) {
 
 ```sh
 # compile
-
 cc -O0 -g -o main main.c
 
 # debug
-
 gdb ./main
 ```
 
@@ -32,16 +30,12 @@ gdb ./main
 (gdb) break 7 if sum > 40
 
 Breakpoint 1 at 0x1141: file main.c, line 7.
-```
 
-```
 (gdb) run
 
 Breakpoint 1, main () at main.c:7
 7			sum += n;
-```
 
-```
 (gdb) print sum
 
 $1 = 45
