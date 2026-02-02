@@ -59,6 +59,18 @@ Old value = 1
 New value = 2
 ```
 
+```gdb
+(gdb) info watchpoints
+
+Num     Type           Disp Enb Address            What
+2       hw watchpoint  keep y                      product
+		breakpoint already hit 2 times
+```
+
+```gdb
+(gdb) delete 2
+```
+
 ----
 
 From [GDB Docs/Set-Watchpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Watchpoints.html#Set-Watchpoints)
@@ -68,4 +80,10 @@ watch [-l|-location] expr [thread thread-id] [mask maskvalue] [task task-id]
 
     Set a watchpoint for an expression. GDB will break when the expression expr
     is written into by the program and its value changes.
+```
+
+```
+info watchpoints [list…]
+
+    This command prints a list of watchpoints, using the same format as info break (see Set Breaks).
 ```
