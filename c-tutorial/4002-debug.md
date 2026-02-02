@@ -42,7 +42,7 @@ Num     Type           Disp Enb Address            What
 
 (gdb) run
 
-[Inferior 1 (process 130610) exited normally]
+[Inferior 1 (process 130612) exited normally]
 ```
 
 ----
