@@ -50,3 +50,14 @@ break ... if <cond>
     evaluate the expression cond each time the breakpoint is reached, and
     stop only if the value is nonzero—that is, if cond evaluates as true.
 ```
+
+From [GDB Docs/Frame-Info](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Frame-Info.html#Frame-Info)
+
+```
+info locals [-q]
+
+    Print the local variables of the selected frame, each on a separate line.
+
+	These are all variables (declared either static or automatic) accessible
+	at the point of execution of the selected frame.
+```
