@@ -27,8 +27,8 @@ gdb ./main
 ```gdb
 (gdb) start
 
-Temporary breakpoint 1, main () at main.c:2
-2		return 0;
+Temporary breakpoint 1, main () at main.c:4
+4		return 0;
 ```
 
 ----
