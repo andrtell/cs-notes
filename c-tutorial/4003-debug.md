@@ -50,7 +50,7 @@ break <locspec>
 
 From [GDB Docs/Linespec-Locations](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Linespec-Locations.html#Linespec-Locations)
 
-(excerpt with edits of original)
+(modified excerpt of original)
 
 ```
 <linenum>
