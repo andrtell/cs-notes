@@ -45,5 +45,5 @@ From [GDB Docs/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.htm
 break <locspec>
 
     Set a breakpoint at all the code locations in your program
-    that result from resolving the given <locspec>
+    that result from resolving the given <locspec>. [...]
 ```
