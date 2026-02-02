@@ -24,7 +24,7 @@ gdb ./main
 
 ----
 
-```gdb
+```
 (gdb) start
 
 Temporary breakpoint 1, main () at main.c:4
