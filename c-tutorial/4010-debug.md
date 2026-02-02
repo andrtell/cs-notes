@@ -20,9 +20,7 @@ int main(void) {
 # compile
 
 cc -O0 -g -o main main.c
-```
 
-```sh
 # debug
 
 gdb ./main
