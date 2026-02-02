@@ -47,7 +47,7 @@ From [GDB Docs/Starting](https://sourceware.org/gdb/current/onlinedocs/gdb.html/
 run
 r
 
-    Use the run command to start your program under GDB. [...]
+    Use the run command to start your program under GDB.
 ```
 
 From [GDB Docs/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)
@@ -57,6 +57,12 @@ From [GDB Docs/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.htm
 break <locspec>
 
     Set a breakpoint at all the code locations in your program
-    that result from resolving the given <locspec>. [...]
+    that result from resolving the given <locspec>.
 ```
 
+```
+info break [list…]
+
+    Print a table of all breakpoints, watchpoints, tracepoints,
+    and catchpoints set and not deleted.
+```
