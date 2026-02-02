@@ -36,6 +36,13 @@ Breakpoint 1 at 0x1131: file main.c, line 4.
 Breakpoint 1 at 0x1131: file main.c, line 4.
 ```
 
+```gdb
+(gdb) break 4
+
+Breakpoint 1 at 0x1131: file main.c, line 4.
+```
+
+
 
 
 ----
