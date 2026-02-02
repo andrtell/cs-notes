@@ -12,13 +12,9 @@ int main(void) {
 
 ```sh
 # compile
-
 cc -O0 -g -o main main.c
-```
 
-```sh
 # debug
-
 gdb ./main
 ```
 
@@ -29,9 +25,7 @@ gdb ./main
 
 Temporary breakpoint 1, main () at main.c:4
 4		int product = 1;
-```
 
-```gdb
 (gdb) continue
 
 [Inferior 1 (process 148246) exited normally]
