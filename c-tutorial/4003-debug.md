@@ -24,14 +24,12 @@ gdb ./main
 
 ```
 (gdb) break main
-            main.c:main
-            4
-            main.c:4
-
+     (or:   main.c:main  
+      or:   4
+      or:   main.c:4)
 Breakpoint 1 at 0x1131: file main.c, line 4.
 
 (gdb) run
-
 Breakpoint 1, main () at main.c:4
 4		return 0;
 ```
