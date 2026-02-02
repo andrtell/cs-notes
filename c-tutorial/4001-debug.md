@@ -6,6 +6,10 @@
 // main.c
 
 int main(void) {
+  int sum = 0;
+  for (int i = 1; i <= 5; i++) {
+    sum += 1;
+  }
   return 0;
 }
 ```
@@ -25,7 +29,7 @@ gdb ./main
 __break__
 
 ```
-(gdb) break main                                # or: [ main.c:main | 4 | main.c:4 ] 
+(gdb) break main                                # other <locspec>:  main.c:main | 4 | main.c:4
 Breakpoint 1 at 0x1131: file main.c, line 4.
 
 (gdb) run
