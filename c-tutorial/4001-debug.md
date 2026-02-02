@@ -19,29 +19,22 @@ cc -O0 -g -o main main.c
 ```sh
 # debug
 
-gdb -s ./main -e ./main
-
-gdb -se ./main
-
+gdb -s ./main -e ./main  # or
+gdb -se ./main           # or
 gdb ./main
 ```
 
 ----
 
 ```gdb
-(gdb) start
+(gdb) list
 
-Temporary breakpoint 1, main () at main2.c:2
+1	int main(void) {
 2		return 0;
+3	}
 ```
 
 ----
-
-From `(gdb) help running`
-
-```
-start -- Start the debugged program stopping at the beginning of the main procedure.
-```
 
 From `man 1 gdb`
 
