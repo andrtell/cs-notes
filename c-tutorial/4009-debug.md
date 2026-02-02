@@ -51,3 +51,12 @@ $1 = 45
 
 ----
 
+From [GDB Doc/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)
+
+```
+break ... if <cond>
+
+    Set a breakpoint with condition <cond>;
+    evaluate the expression cond each time the breakpoint is reached, and
+    stop only if the value is nonzero—that is, if cond evaluates as true.
+```
