@@ -51,7 +51,7 @@ $1 = 45
 
 ----
 
-From [GDB Doc/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)
+From [GDB Docs/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)
 
 ```
 break ... if <cond>
