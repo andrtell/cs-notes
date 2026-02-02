@@ -12,11 +12,9 @@ int main(void) {
 
 ```sh
 # compile
-
 cc -O0 -g -o main main.c
 
 # debug
-
 gdb ./main
 ```
 
@@ -26,9 +24,7 @@ gdb ./main
 (gdb) break main
 
 Breakpoint 1 at 0x1131: file main.c, line 4.
-```
 
-```
 (gdb) delete 1
 ```
 
