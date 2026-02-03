@@ -51,6 +51,6 @@ Sugar is sweet
 And so are you.
 ```
 
-----
+__Reference__
 
 [4.6 Your Program’s Input and Output](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Input_002fOutput.html#Input_002fOutput)
