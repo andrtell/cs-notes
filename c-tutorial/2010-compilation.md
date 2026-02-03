@@ -2,14 +2,6 @@
 
 ----
 
-```sh
-# observe
-ls /not/the/usual/place/easymath
-
-libeasymath.so
-easymath.h
-```
-
 ```c
 /// main.c
 
@@ -26,8 +18,18 @@ int main(void) {
 }
 ```
 
+_observe_
+
 ```sh
-# compile
+ls /not/the/usual/place/easymath
+
+libeasymath.so
+easymath.h
+```
+
+_compile_
+
+```sh
 export LIB_DIR=/not/the/usual/place/easymath
 
 cc -I $LIB_DIR \
@@ -36,19 +38,24 @@ cc -I $LIB_DIR \
    -leasymath \            # -leasymath -> lib + easymath + .so
    -Wl,-rpath,$LIB_DIR \
    -o main
+```
 
-# observe
+_observe_
+
+```sh
 ldd ./main
-libeasymath.so => /not/the/usual/place/easymath/libeasymath.so (0x000076c665abf000)
 
-# run
+libeasymath.so => /not/the/usual/place/easymath/libeasymath.so (0x000076c665abf000)
+```
+
+_run_
+
+```
 ./main
 6 + 10 = 16
 ```
 
-----
-
-From `man 1 gcc`
+_man 1 gcc_
 
 ```
 -I dir
@@ -70,7 +77,7 @@ From `man 1 gcc`
     To disable, use -Wl,-z,norelro.
 ```
 
-From `man 1 ld`
+_man 1 ld_
 
 ```
 -rpath=dir
