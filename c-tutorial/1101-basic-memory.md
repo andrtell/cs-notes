@@ -26,14 +26,13 @@ int main(void) {
 ```sh
 # compile
 
-cc -o greet greet.c
+ cc -o greet greet.c
 ```
 
 ```sh
 # run
 
-./greet
-
-Peter
-Hello, Peter!
+ ./greet
+ Peter<ENTER>
+ Hello, Peter!
 ```
