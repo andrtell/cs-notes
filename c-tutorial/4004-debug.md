@@ -14,10 +14,12 @@ int main(void) {
 
 ```sh
 # compile
-cc -O0 -g -o main main.c
+
+ cc -O0 -g -o main main.c
 
 # debug
-gdb ./main
+
+ gdb ./main
 ```
 
 ----
@@ -26,7 +28,8 @@ __clear__
 
 ```
 (gdb) break main
-Breakpoint 1 at 0x1131: file main.c, line 4.
+
+ Breakpoint 1 at 0x1131: file main.c, line 4.
 
 (gdb) clear main
 ```
@@ -35,7 +38,8 @@ __delete__
 
 ```
 (gdb) break main
-Breakpoint 1 at 0x1131: file main.c, line 4.
+
+ Breakpoint 1 at 0x1131: file main.c, line 4.
 
 (gdb) delete 1
 ```
@@ -44,18 +48,21 @@ __enable / disable__
 
 ```
 (gdb) break main
-Breakpoint 1 at 0x1131: file main.c, line 4.
+
+ Breakpoint 1 at 0x1131: file main.c, line 4.
 
 (gdb) disable 1
 
 (gdb) run
-[Inferior 1 (process 130610) exited normally]
+
+ [Inferior 1 (process 130610) exited normally]
 
 (gdb) enable 1
 
 (gdb) run
-Breakpoint 1, main () at main.c:4
-4		return 0;
+
+ Breakpoint 1, main () at main.c:4
+ 4		return 0;
 ```
 
 ----
