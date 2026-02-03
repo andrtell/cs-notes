@@ -2,6 +2,8 @@
 
 ----
 
+__Program__
+
 ```c
 // greet.c
 
@@ -16,20 +18,26 @@ int main() {
 }
 ```
 
-----
+_compile_
 
 ```sh
-# compile
 cc -o greet greet.c
+```
 
-# observe
+_observe_
+
+```sh
 objdump -s -j .data ./greet
 
 0000000000004010 <name>:
      4010:	50 45 54 45 52 00                                   PETER.
+```
 
-# run
+_run_
+
+```
 ./greet
+
 Hello, PETER!
 ```
 
