@@ -88,30 +88,30 @@ From [GDB Docs/Starting](https://sourceware.org/gdb/current/onlinedocs/gdb.html/
 run
 r
 
-    Use the run command to start your program under GDB.
+Use the run command to start your program under GDB.
 ```
 
 ```
 start
 
-    The ‘start’ command does the equivalent of setting a temporary breakpoint at
-    the beginning of the main procedure and then invoking the ‘run’ command.
+The ‘start’ command does the equivalent of setting a temporary breakpoint at
+the beginning of the main procedure and then invoking the ‘run’ command.
 ```
 
 ```
 The arguments.
 
-    Specify the arguments to give your program as the arguments of the run command.
+Specify the arguments to give your program as the arguments of the run command.
 
-    If a shell is available on your target, the shell is used to pass the arguments,
-    so that you may use normal conventions (such as wildcard expansion or variable substitution)
-    in describing the arguments. [...]
+If a shell is available on your target, the shell is used to pass the arguments,
+so that you may use normal conventions (such as wildcard expansion or variable substitution)
+in describing the arguments. [...]
 ```
 
 ```
 The environment.
 
-    Your program normally inherits its environment from GDB, but you can use the GDB commands
-    set environment and unset environment to change parts of the environment that affect your
-    program. See Your Program’s Environment.
+Your program normally inherits its environment from GDB, but you can use the GDB commands
+set environment and unset environment to change parts of the environment that affect your
+program. See Your Program’s Environment.
 ```
