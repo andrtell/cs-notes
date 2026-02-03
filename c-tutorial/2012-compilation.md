@@ -2,6 +2,8 @@
 
 ----
 
+__LIBRARY__
+
 ```c
 // easymath.h
 
@@ -21,11 +23,15 @@ int easymath_add(int a, int b) {
 }
 ```
 
-```sh
-# compile
-cc -fPIC -shared -o libeasymath.so easymath.c
+_compile_
 
-# install
+```sh
+cc -fPIC -shared -o libeasymath.so easymath.c
+```
+
+_install_
+
+```sh
 mkdir -p /usr/local/{lib,include}
 
 cp easymath.h     /usr/local/include/
@@ -35,7 +41,7 @@ cp libeasymath.so /usr/local/lib/
 ldconfig
 ```
 
-----
+__CLIENT__
 
 ```c
 /// main.c
@@ -53,22 +59,28 @@ int main(void) {
 }
 ```
 
+_compile_
+
 ```sh
-# compile
 cc -o main main.c -leasymath
+```
 
-# observe
+_observe_
+
+```sh
 ldd ./main
-libeasymath.so => /usr/local/lib/libeasymath.so
 
-# run
+libeasymath.so => /usr/local/lib/libeasymath.so
+```
+
+_run_
+
+```sh
 ./main
 6 + 10 = 16
 ```
 
-----
-
-From https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html
+https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html
 
 ```
 4.9. /usr/local : Local hierarchy
@@ -81,7 +93,7 @@ include/	Local C header files
 lib/		Local libraries
 ```
 
-From `man ldconfig`
+_man 1 ldconfig_
 
 ```
 DESCRIPTION
