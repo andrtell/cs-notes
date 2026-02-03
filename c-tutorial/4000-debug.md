@@ -43,8 +43,8 @@ __the _arguments_ (run & start)__
 
 ```
 (gdb) start 1 $(pwd) $HOME
-Temporary breakpoint 1, main (argc=4, argv=0x7fffffffde38) at main.c:4
-4		return 0;
+Temporary breakpoint 2, main (argc=4, argv=0x7fffffffde38) at main.c:5
+5	  char *s = getenv("VAR");
 
 (gdb) show args
 Argument list to give program being debugged when it is started is "1 $(pwd) $HOME".
