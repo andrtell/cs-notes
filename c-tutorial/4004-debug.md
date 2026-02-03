@@ -45,16 +45,7 @@ Breakpoint 1 at 0x55555555515c: file main.c, line 4.
 
 (gdb) disable 1
 
-(gdb) run
-
-[Inferior 1 (process 130610) exited normally]
-
 (gdb) enable 1
-
-(gdb) run
-
-Breakpoint 1, main () at main.c:4
-4		return 0;
 ```
 
 ----
