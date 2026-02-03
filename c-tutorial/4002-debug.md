@@ -37,16 +37,16 @@ int main(void) {
 ```sh
 # compile
 
-cc -O0 -g -o main main.c
+ cc -O0 -g -o main main.c
 
 # run (terminal 1)
 
-./main
-Started with PID: 113247
+ ./main
+ Started with PID: 113247
 
 # debug (terminal 2)
 
-gdb
+ gdb
 ```
 
 ----
