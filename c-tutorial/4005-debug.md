@@ -80,36 +80,6 @@ _continue_
 
 ----
 
-From [GDB Docs/Continuing-and-Stepping](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Continuing-and-Stepping.html#Continuing-and-Stepping)
+[5.2 Continuing and Stepping](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Continuing-and-Stepping.html#Continuing-and-Stepping)
 
-```
-step
-
-    Continue running your program until control reaches a different source line. [...]
-```
-
-```
-next [count]
-
-    Continue to the next source line in the current (innermost) stack frame.
-    This is similar to step, but function calls that appear within the line
-    of code are executed without stopping.
-```
-
-```
-continue [ignore-count]
-c        [ignore-count]
-fg       [ignore-count]
-
-    Resume program execution, at the address where your program last stopped. [...]
-```
-
-
-From [GDB Docs/Backtrace](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Backtrace.html#Backtrace)
-
-```
-backtrace [option]... [qualifier]... [count]
-bt        [option]... [qualifier]... [count]
-
-    Print the backtrace of the entire stack. [...]
-```
+[8.2 Backtraces](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Backtrace.html#Backtrace)
