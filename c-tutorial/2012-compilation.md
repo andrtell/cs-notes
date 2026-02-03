@@ -2,7 +2,7 @@
 
 ----
 
-__LIBRARY__
+__Library__
 
 ```c
 // easymath.h
@@ -41,7 +41,7 @@ cp libeasymath.so /usr/local/lib/
 ldconfig
 ```
 
-__CLIENT__
+__Program__
 
 ```c
 /// main.c
@@ -79,6 +79,8 @@ _run_
 ./main
 6 + 10 = 16
 ```
+
+__Reference__
 
 https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html
 
