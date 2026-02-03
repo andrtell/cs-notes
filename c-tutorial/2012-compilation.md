@@ -21,24 +21,17 @@ int easymath_add(int a, int b) {
 }
 ```
 
-----
-
 ```sh
 # compile
-
 cc -fPIC -shared -o libeasymath.so easymath.c
-```
 
-```sh
 # install
-
 mkdir -p /usr/local/{lib,include}
 
 cp easymath.h     /usr/local/include/
 cp libeasymath.so /usr/local/lib/
 
 # update the dynamic linker cache
-
 ldconfig
 ```
 
@@ -62,23 +55,14 @@ int main(void) {
 
 ```sh
 # compile
-
 cc -o main main.c -leasymath
-```
 
-```sh
 # observe
-
 ldd ./main
-
 libeasymath.so => /usr/local/lib/libeasymath.so
-```
 
-```sh
 # run
-
 ./main
-
 6 + 10 = 16
 ```
 
