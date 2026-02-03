@@ -1,4 +1,4 @@
-[Index](./index.md) [Prev](./3004-debug.md) [Next](./3006-debug.md)
+[Index](./index.md) [Prev](./4000-debug.md) [Next](./4002-debug.md)
 
 ----
 
@@ -16,16 +16,14 @@ int main() {
 }
 ```
 
+----
+
 ```sh
 # compile
-
 cc -O0 -g -o main main.c
-```
 
-```sh
 # debug
-
-gdb -se ./main
+gdb ./main
 ```
 
 ----
