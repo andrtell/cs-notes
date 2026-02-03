@@ -38,7 +38,7 @@ Disassembly of section .text:
 
 ----
 
-From `man 1 gcc`
+`man 1 gcc`
 
 ```
 -c  Compile or assemble the source files, but do not link.  The linking stage simply is not done.
