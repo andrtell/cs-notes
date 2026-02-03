@@ -2,6 +2,8 @@
 
 ----
 
+__Library__
+
 ```c
 // easymath.h
 
@@ -26,6 +28,8 @@ _compile_
 ```sh
 cc -fPIC -shared -o libeasymath.so easymath.c
 ```
+
+__Reference__
 
 _man 1 gcc_
 
