@@ -72,7 +72,7 @@ Num     Type           Disp Enb Address            What
         breakpoint already hit 1 time
 ```
 
-----
+__Reference__
 
 [5.1.1 Setting Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)
 
