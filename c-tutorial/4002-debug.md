@@ -32,17 +32,26 @@ int main(void) {
 }
 ```
 
-```sh
-# compile
-cc -O0 -g -o main main.c
+_compile_
 
-# run (terminal 1)
+```sh
+cc -O0 -g -o main main.c
+```
+
+_run (terminal 1)_
+
+```sh
 ./main
 Started with PID: 113247
+```
 
-# debug (terminal 2)
+_debug (terminal 2)_
+
+```
 gdb
 ```
+
+__GDB__
 
 _attach_
 
