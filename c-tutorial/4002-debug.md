@@ -37,7 +37,9 @@ int main(void) {
 ```sh
 # compile
 cc -O0 -g -o main main.c
+```
 
+```sh
 # run
 ./main
 Started with PID: 113247
