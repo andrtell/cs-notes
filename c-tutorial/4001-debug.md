@@ -28,15 +28,12 @@ gdb ./main
 
 ----
 
-```gdb
+```
 (gdb) run > poem.txt
 
 [Inferior 1 (process 111246) exited normally]
-```
 
-```gdb
 (gdb) !cat poem.txt
-
 Roses are red
 Violets are blue,
 Sugar is sweet
