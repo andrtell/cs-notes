@@ -86,7 +86,7 @@ _continue_
 [Inferior 1 (process 153680) exited normally]
 ```
 
-----
+__Reference__
 
 [5.2 Continuing and Stepping](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Continuing-and-Stepping.html#Continuing-and-Stepping)
 
