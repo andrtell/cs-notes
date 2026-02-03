@@ -2,14 +2,6 @@
 
 ----
 
-```sh
-# observe
-ls /not/the/usual/place/easymath
-
-libeasymath.so
-easymath.h
-```
-
 ```c
 /// main.c
 
@@ -26,9 +18,21 @@ int main(void) {
 }
 ```
 
+_observe_
+
 ```sh
-# compile
+# observe
+ls /not/the/usual/place/easymath
+
+libeasymath.so
+easymath.h
+```
+
+_compile_
+
+```sh
 # note: -Wl,-rpath is missing here
+
 export LIB_DIR=/not/the/usual/place/easymath
 
 cc -I $LIB_DIR \
@@ -36,8 +40,11 @@ cc -I $LIB_DIR \
    main.c \
    -leasymath \
    -o main
+```
 
-# run
+_run_
+
+```sh
 ./main
 
 ./main: error while loading shared libraries: libeasymath.so: \
@@ -49,9 +56,7 @@ export LD_LIBRARY_PATH=/not/the/usual/place/easymath
 6 + 10 = 16
 ```
 
-----
-
-From `man 8 ld.so`
+_man 8 ld.so_
 
 ```
 LD_LIBRARY_PATH
