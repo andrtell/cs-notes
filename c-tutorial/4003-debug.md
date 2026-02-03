@@ -72,23 +72,23 @@ From [GDB Docs/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.htm
 ```
 break <locspec>
 
-    Set a breakpoint at all the code locations in your program
-    that result from resolving the given <locspec>.
+Set a breakpoint at all the code locations in your program
+that result from resolving the given <locspec>.
 ```
 
 ```
 break ... if cond
 
-    Set a breakpoint with condition cond;
-    evaluate the expression cond each time the breakpoint is reached,
-    and stop only if the value is nonzero—that is, if cond evaluates as true.
+Set a breakpoint with condition cond;
+evaluate the expression cond each time the breakpoint is reached,
+and stop only if the value is nonzero—that is, if cond evaluates as true.
 ```
 
 ```
 info break [list…]
 
-    Print a table of all breakpoints, watchpoints, tracepoints,
-    and catchpoints set and not deleted.
+Print a table of all breakpoints, watchpoints, tracepoints,
+and catchpoints set and not deleted.
 ```
 
 See [GDB Docs/Linespec-Locations](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Linespec-Locations.html#Linespec-Locations).
