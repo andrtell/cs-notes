@@ -14,15 +14,21 @@ int main(void) {
 }
 ```
 
-```sh
-# compile
-cc -O0 -g -o main main.c
+_compile_
 
-# debug
+```sh
+cc -O0 -g -o main main.c
+```
+
+_debug_
+
+```sh
 gdb ./main
 ```
 
-_break \<locspec\>  = main | main.c:main | 4 | main.c:4 | ..._
+__GDB__
+
+_break_
 
 ```
 (gdb) break main
