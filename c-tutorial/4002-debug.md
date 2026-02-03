@@ -51,6 +51,8 @@ int main(void) {
 
 ----
 
+__attach__
+
 ```
 (gdb) attach 113247
 
