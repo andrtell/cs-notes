@@ -10,14 +10,13 @@ int main(void) {
 }
 ```
 
+_compile_
+
 ```sh
-# compile
 cc -std=gnu18 main.c
 ```
 
-----
-
-From `man 1 gcc`
+_man 1 gcc_
 
 ```
 -std=
@@ -25,7 +24,7 @@ From `man 1 gcc`
 
     This option is currently only supported when compiling C or C++.
 
-    ...
+    [...]
 
     gnu17
     gnu18
