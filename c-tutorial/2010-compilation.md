@@ -4,7 +4,6 @@
 
 ```sh
 # observe
-
 ls /not/the/usual/place/easymath
 
 libeasymath.so
