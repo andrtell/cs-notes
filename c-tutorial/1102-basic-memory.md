@@ -2,6 +2,8 @@
 
 ----
 
+__Program__
+
 ```c
 // greet.c
 
@@ -19,14 +21,17 @@ int main() {
 }
 ```
 
-----
+_compile_
 
 ```sh
-# compile
 cc -o greet greet.c
+```
 
-# run
+_run_
+
+```
 ./greet
+
 Peter<ENTER>
 Hello, Peter!
 ```
