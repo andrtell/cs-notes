@@ -10,14 +10,13 @@ int main(void) {
 }
 ```
 
+_compile_
+
 ```sh
-# compile
 cc -o main main.c
 ```
 
-----
-
-`man 1 gcc`
+_man 1 gcc_
 
 ```
 -o <file>
