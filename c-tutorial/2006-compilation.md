@@ -10,11 +10,8 @@ int main(void) {
 }
 ```
 
-----
-
 ```sh
 # compile
-
 cc -Wall -Wextra main.c
 
 main.c: In function ‘main’:
