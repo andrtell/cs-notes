@@ -15,17 +15,12 @@ int main(void) {
 
 ```sh
 # compile
-
 cc -c main.c
-```
 
-```sh
 # observe
-
 objdump -S main.o
 
 main.o:     file format elf64-x86-64
-
 
 Disassembly of section .text:
 
