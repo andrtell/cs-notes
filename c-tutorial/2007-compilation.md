@@ -14,27 +14,18 @@ int main(void) {
 	double b = sqrt(a);
 	printf("The square root of %1.1f is %1.1f.\n", a, b);
 }
-
 ```
-
-----
 
 ```sh
 # compile
-
 # note 1: -lc is implied.
 # note 2: -lm comes after main.c.
-
 cc main.c -lm
-```
 
-```sh
 # run
-
 ./a.out
 The square root of 1804289383.0 is 42476.9.
 ```
-
 
 ----
 
