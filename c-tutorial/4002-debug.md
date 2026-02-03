@@ -32,8 +32,6 @@ int main(void) {
 }
 ```
 
-----
-
 ```sh
 # compile
 
@@ -49,29 +47,27 @@ int main(void) {
  gdb
 ```
 
-----
-
-__attach__
+_attach_
 
 ```
 (gdb) attach 113247
+```
 
+```
 (gdb) break main.c:22
-
- Breakpoint 1 at 0x6454099ac24e: file main.c, line 22.
 
 (gdb) continue
 
- Breakpoint 1, main () at main.c:22
- 22		 printf(".");
+Breakpoint 1, main () at main.c:22
+22		 printf(".");
 
 (gdb) print running
 
- $1 = 1
+$1 = 1
 
 (gdb) kill
 
- [Inferior 1 (process 113247) killed]
+[Inferior 1 (process 113247) killed]
 ```
 
 ----
