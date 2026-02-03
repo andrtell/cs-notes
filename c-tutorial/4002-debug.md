@@ -78,7 +78,7 @@ $1 = 1
 [Inferior 1 (process 113247) killed]
 ```
 
-----
+__Tips__
 
 Allow attach until next boot.
 
