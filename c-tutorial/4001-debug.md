@@ -30,7 +30,9 @@ _redirect output_
 (gdb) run > poem.txt
 
 [Inferior 1 (process 111246) exited normally]
+```
 
+```
 (gdb) !cat poem.txt
 
 Roses are red
