@@ -16,8 +16,6 @@ int main() {
 }
 ```
 
-----
-
 ```sh
 # compile
 
@@ -27,8 +25,6 @@ int main() {
 
  gdb ./main
 ```
-
-----
 
 ```
 (gdb) run > poem.txt
