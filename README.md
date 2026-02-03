@@ -1,3 +1,4 @@
+[C Lang](./c/index.md)
 
 [Chez Scheme](./chez-scheme/index.md)
 
