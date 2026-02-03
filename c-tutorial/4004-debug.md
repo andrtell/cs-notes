@@ -56,7 +56,7 @@ Breakpoint 1 at 0x55555555515c: file main.c, line 4.
 (gdb) enable 1
 ```
 
-----
+__Reference__
 
 [5.1.4 Deleting Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Delete-Breaks.html#Delete-Breaks)
 
