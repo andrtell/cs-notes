@@ -17,11 +17,11 @@ int main(int argc, char *argv[]) {
 ```sh
 # compile
 
-cc -O0 -g -o main main.c
+ cc -O0 -g -o main main.c
 
 # debug
 
-VAR=ABC gdb ./main
+ VAR=ABC gdb ./main
 ```
 
 ----
@@ -31,7 +31,7 @@ __run__
 ```
 (gdb) run
 
-[Inferior 1 (process 130610) exited normally]
+ [Inferior 1 (process 130610) exited normally]
 ```
 
 __start__
