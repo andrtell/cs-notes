@@ -20,9 +20,11 @@ int main() {
 
 ```sh
 # compile
+
 cc -O0 -g -o main main.c
 
 # debug
+
 gdb ./main
 ```
 
@@ -31,11 +33,12 @@ gdb ./main
 ```
 (gdb) run > poem.txt
 
-[Inferior 1 (process 111246) exited normally]
+ [Inferior 1 (process 111246) exited normally]
 
 (gdb) !cat poem.txt
-Roses are red
-Violets are blue,
-Sugar is sweet
-And so are you.
+
+ Roses are red
+ Violets are blue,
+ Sugar is sweet
+ And so are you.
 ```
