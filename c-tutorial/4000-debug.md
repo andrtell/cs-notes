@@ -71,3 +71,13 @@ start
     The ‘start’ command does the equivalent of setting a temporary breakpoint at
     the beginning of the main procedure and then invoking the ‘run’ command.
 ```
+
+```
+The arguments.
+
+    Specify the arguments to give your program as the arguments of the run command.
+
+    If a shell is available on your target, the shell is used to pass the arguments,
+    so that you may use normal conventions (such as wildcard expansion or variable substitution)
+    in describing the arguments. [...]
+```
