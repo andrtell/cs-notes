@@ -16,6 +16,8 @@ int main() {
 }
 ```
 
+----
+
 ```sh
 # compile
 
