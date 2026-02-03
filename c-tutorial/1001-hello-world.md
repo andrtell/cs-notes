@@ -17,13 +17,12 @@ int main() {
 ```sh
 # compile
 
-cc -o hello hello.c
+ cc -o hello hello.c
 ```
 
 ```sh
 # run
 
-./hello
-
-Hello, world!
+ ./hello
+ Hello, world!
 ```
