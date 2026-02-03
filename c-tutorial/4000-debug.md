@@ -30,6 +30,7 @@ __run__
 
 ```
 (gdb) run
+
 [Inferior 1 (process 130610) exited normally]
 ```
 
@@ -37,8 +38,9 @@ __start__
 
 ```
 (gdb) start
-Temporary breakpoint 1, main (argc=1, argv=0x7fffffffde78) at main.c:5
-5	  char *s = getenv("VAR");
+
+ Temporary breakpoint 1, main (argc=1, argv=0x7fffffffde78) at main.c:5
+ 5	  char *s = getenv("VAR");
 ```
 
 __the _arguments_ (run & start)__
@@ -47,34 +49,40 @@ __the _arguments_ (run & start)__
 (gdb) start 1 $(pwd) $HOME
 
 (gdb) show args
-Argument list to give program being debugged when it is started is "1 $(pwd) $HOME".
+
+ Argument list to give program being debugged when it is started is "1 $(pwd) $HOME".
 
 (gdb) print argc
-$1 = 4
+
+ $1 = 4
 
 (gdb) print *argv@argc
-$2 = {0x7fffffffe1c0 "/tmp/main", 0x7fffffffe1ca "1", 0x7fffffffe1cc "/tmp", 0x7fffffffe1d1 "/home/bob"}
+
+ $2 = {0x7fffffffe1c0 "/tmp/main", 0x7fffffffe1ca "1", 0x7fffffffe1cc "/tmp", 0x7fffffffe1d1 "/home/bob"}
 ```
 
 __the _environment___
 
 ```
 (gdb) show environment
-VAR=ABC
+
+ VAR=ABC
 
 (gdb) break main.c:6
 
 (gdb) run
 
 (gdb) info locals
-s = 0x7fffffffec96 "ABC"
+
+ s = 0x7fffffffec96 "ABC"
 
 (gdb) set environment VAR=123
 
 (gdb) run
 
 (gdb) info locals
-s = 0x7fffffffec96 "123"
+
+ s = 0x7fffffffec96 "123"
 ```
 
 ----
