@@ -2,6 +2,8 @@
 
 ----
 
+__Program__
+
 ```c
 // hello.c
 
@@ -12,11 +14,15 @@ int main() {
 }
 ```
 
-```sh
-# compile
-cc -o hello hello.c
+_compile_
 
-# run
+```sh
+cc -o hello hello.c
+```
+
+_run_
+
+```sh
 ./hello
 Hello, world!
 ```
