@@ -55,11 +55,4 @@ main () at main.c:5
 
 ----
 
-From [GDB Docs/Set-Watchpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Watchpoints.html#Set-Watchpoints)
-
-```
-watch [-l|-location] expr [thread thread-id] [mask maskvalue] [task task-id]
-
-    Set a watchpoint for an expression. GDB will break when the expression expr
-    is written into by the program and its value changes.
-```
+[5.1.2 Setting Watchpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Watchpoints.html#Set-Watchpoints)
