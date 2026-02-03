@@ -12,18 +12,21 @@ int main(void) {
 }
 ```
 
-```sh
-# observe
-pkg-config --cflags --libs libcurl
--I/usr/include/x86_64-linux-gnu -lcurl
+_compile_
 
-# compile
+```sh
 cc main.c `pkg-config --cflags --libs libcurl`
 ```
 
-----
+_observe_
 
-From `man pkg-config`
+```sh
+pkg-config --cflags --libs libcurl
+
+-I/usr/include/x86_64-linux-gnu -lcurl
+```
+
+_man 1 pkg-config_
 
 ```
 NAME
