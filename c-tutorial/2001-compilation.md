@@ -11,6 +11,7 @@ int main(void) {
   f();
 }
 ```
+----
 
 ```sh
 # compile
