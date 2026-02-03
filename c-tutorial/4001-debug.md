@@ -16,13 +16,19 @@ int main() {
 }
 ```
 
-```sh
-# compile
-cc -O0 -g -o main main.c
+_compile_
 
-# debug
+```sh
+cc -O0 -g -o main main.c
+```
+
+_debug_
+
+```sh
 gdb ./main
 ```
+
+__GDB__
 
 _redirect output_
 
@@ -31,6 +37,8 @@ _redirect output_
 
 [Inferior 1 (process 111246) exited normally]
 ```
+
+_shell command_
 
 ```
 (gdb) !cat poem.txt
