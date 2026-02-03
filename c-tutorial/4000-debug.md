@@ -17,48 +17,58 @@ int main(int argc, char *argv[]) {
 ```sh
 # compile
 
- cc -O0 -g -o main main.c
+cc -O0 -g -o main main.c
 
 # debug
 
- VAR=ABC gdb ./main
+VAR=ABC gdb ./main
 ```
 
 ----
 
-__run__
+_run_
 
 ```
 (gdb) run
 
- [Inferior 1 (process 130610) exited normally]
+[Inferior 1 (process 130610) exited normally]
 ```
 
-__start__
+----
+
+_start_
 
 ```
 (gdb) start
 
- Temporary breakpoint 1, main (argc=1, argv=0x7fffffffde78) at main.c:5
- 5	  char *s = getenv("VAR");
+Temporary breakpoint 1, main (argc=1, argv=0x7fffffffde78) at main.c:5
+5	  char *s = getenv("VAR");
 ```
 
-__the _arguments_ (run & start)__
+----
+
+_the arguments (run & start)_
 
 ```
 (gdb) start 1 $(pwd) $HOME
+```
 
+```
 (gdb) show args
 
- Argument list to give program being debugged when it is started is "1 $(pwd) $HOME".
+Argument list to give program being debugged when it is started is "1 $(pwd) $HOME".
+```
 
+```
 (gdb) print argc
 
- $1 = 4
+$1 = 4
+```
 
+```
 (gdb) print *argv@argc
 
- $2 = {0x7fffffffe1c0 "/tmp/main", 0x7fffffffe1ca "1", 0x7fffffffe1cc "/tmp", 0x7fffffffe1d1 "/home/bob"}
+$2 = {0x7fffffffe1c0 "/tmp/main", 0x7fffffffe1ca "1", 0x7fffffffe1cc "/tmp", 0x7fffffffe1d1 "/home/bob"}
 ```
 
 __the _environment___
@@ -66,7 +76,7 @@ __the _environment___
 ```
 (gdb) show environment
 
- VAR=ABC
+VAR=ABC
 
 (gdb) break main.c:6
 
