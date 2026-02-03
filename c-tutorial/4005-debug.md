@@ -25,10 +25,12 @@ int main() {
 
 ```sh
 # compile
-cc -O0 -g -o main main.c
+
+ cc -O0 -g -o main main.c
 
 # debug
-gdb ./main
+
+ gdb ./main
 ```
 
 ----
@@ -37,42 +39,49 @@ __step__
 
 ```
 (gdb) start
-Temporary breakpoint 1, main () at main.c:13
-13		int val = 2;
+
+ Temporary breakpoint 1, main () at main.c:13
+ 13		int val = 2;
 
 (gdb) step
-14		int res = times2(val);
+
+ 14		int res = times2(val);
 
 (gdb) step
-times2 (c=2) at main.c:9
-9		return add(c, c);
+
+ times2 (c=2) at main.c:9
+ 9		return add(c, c);
 
 (gdb) step
-add (a=2, b=2) at main.c:4
-4		int sum = a + b;
+
+ add (a=2, b=2) at main.c:4
+ 4		int sum = a + b;
 ```
 
 __next__
 
 ```
 (gdb) next
-5		return sum;
+
+ 5		return sum;
 ```
 
 __backtrace__
 
 ```
 (gdb) backtrace
-#0  add (a=2, b=2) at main.c:4
-#1  0x0000555555555165 in times2 (c=2) at main.c:9
-#2  0x0000555555555184 in main () at main.c:14
+
+ #0  add (a=2, b=2) at main.c:4
+ #1  0x0000555555555165 in times2 (c=2) at main.c:9
+ #2  0x0000555555555184 in main () at main.c:14
 ```
 
 __continue__
 
 ```
 (gdb) continue
-[Inferior 1 (process 153680) exited normally]
+
+ [Inferior 1 (process 153680) exited normally]
 ```
 
 ----
