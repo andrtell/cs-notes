@@ -21,14 +21,13 @@ int easymath_add(int a, int b) {
 }
 ```
 
+_compile_
+
 ```sh
-# compile
 cc -fPIC -shared -o libeasymath.so easymath.c
 ```
 
-----
-
-From `man 1 gcc`
+_man 1 gcc_
 
 ```
 -shared
