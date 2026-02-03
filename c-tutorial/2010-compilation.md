@@ -2,6 +2,8 @@
 
 ----
 
+__Program__
+
 ```c
 /// main.c
 
@@ -54,6 +56,8 @@ _run_
 ./main
 6 + 10 = 16
 ```
+
+__Reference__
 
 _man 1 gcc_
 
