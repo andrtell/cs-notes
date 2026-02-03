@@ -22,10 +22,10 @@ cc -O0 -g -o main main.c
 gdb ./main
 ```
 
-_break_
+_break \<locspec\>_  _(main | main.c:main | 4 | main.c:4)_
 
 ```
-(gdb) break main                                # other <locspec>:  main.c:main | 4 | main.c:4
+(gdb) break main
 
 Breakpoint 1 at 0x1131: file main.c, line 4.
 
