@@ -66,6 +66,6 @@ Num     Type           Disp Enb Address            What
 
 ----
 
-[5.1.1 Setting Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks).
+[5.1.1 Setting Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)
 
-[9.2 Location Specifications](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Linespec-Locations.html#Linespec-Locations).
+[9.2 Location Specifications](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Linespec-Locations.html#Linespec-Locations)
