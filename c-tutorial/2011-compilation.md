@@ -2,6 +2,8 @@
 
 ----
 
+__Program__
+
 ```c
 /// main.c
 
@@ -55,6 +57,8 @@ export LD_LIBRARY_PATH=/not/the/usual/place/easymath
 ./main
 6 + 10 = 16
 ```
+
+__Reference__
 
 _man 8 ld.so_
 
