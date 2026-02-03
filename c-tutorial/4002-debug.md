@@ -1,4 +1,4 @@
-[Index](./index.md) [Prev](./3005-debug.md) [Next](./3007-debug.md)
+[Index](./index.md) [Prev](./4001-debug.md) [Next](./4003-debug.md)
 
 ----
 
@@ -32,23 +32,19 @@ int main(void) {
 }
 ```
 
+----
+
 ```sh
 # compile
-
 cc -O0 -g -o main main.c
-```
 
-```sh
 # run
-
 ./main
-
 Started with PID: 113247
 ```
 
 ```sh
 # debug (in second terminal)
-
 gdb
 ```
 
@@ -60,26 +56,22 @@ gdb
 
 ```gdb
 (gdb) break main.c:22
-
 Breakpoint 1 at 0x6454099ac24e: file main.c, line 22.
 ```
 
 ```gdb
 (gdb) continue
-
 Breakpoint 1, main () at main.c:22
 22		printf(".");
 ```
 
 ```gdb
 (gdb) print running
-
 $1 = 1
 ```
 
 ```gdb
 (gdb) kill
-
 [Inferior 1 (process 113247) killed]
 ```
 
