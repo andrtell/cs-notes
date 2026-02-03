@@ -10,11 +10,8 @@ int main(void) {
 }
 ```
 
-----
-
 ```sh
 # compile
-
 cc -std=gnu18 main.c
 ```
 
