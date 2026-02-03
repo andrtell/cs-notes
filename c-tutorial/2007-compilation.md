@@ -2,6 +2,8 @@
 
 ----
 
+__Program__
+
 ```c
 // main.c
 
@@ -31,6 +33,8 @@ _run_
 ./a.out
 The square root of 1804289383.0 is 42476.9.
 ```
+
+__Reference__
 
 _man 1 gcc_
 
