@@ -43,8 +43,7 @@ __the _arguments_ (run & start)__
 
 ```
 (gdb) start 1 $(pwd) $HOME
-Temporary breakpoint 2, main (argc=4, argv=0x7fffffffde38) at main.c:5
-5	  char *s = getenv("VAR");
+...
 
 (gdb) show args
 Argument list to give program being debugged when it is started is "1 $(pwd) $HOME".
@@ -54,6 +53,30 @@ $1 = 4
 
 (gdb) print *argv@argc
 $2 = {0x7fffffffe1c0 "/tmp/main", 0x7fffffffe1ca "1", 0x7fffffffe1cc "/tmp", 0x7fffffffe1d1 "/home/bob"}
+```
+
+__the _environment___
+
+```
+(gdb) show environment
+VAR=ABC
+
+(gdb) break main.c:6
+...
+
+(gdb) run
+...
+
+(gdb) info locals
+s = 0x7fffffffec96 "ABC"
+
+(gdb) set environment VAR=123
+
+(gdb) run
+...
+
+(gdb) info locals
+s = 0x7fffffffec96 "123"
 ```
 
 ----
@@ -82,4 +105,12 @@ The arguments.
     If a shell is available on your target, the shell is used to pass the arguments,
     so that you may use normal conventions (such as wildcard expansion or variable substitution)
     in describing the arguments. [...]
+```
+
+```
+The environment.
+
+    Your program normally inherits its environment from GDB, but you can use the GDB commands
+    set environment and unset environment to change parts of the environment that affect your
+    program. See Your Program’s Environment.
 ```
