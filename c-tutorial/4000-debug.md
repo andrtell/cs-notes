@@ -37,7 +37,7 @@ Temporary breakpoint 1, main () at main.c:4
 4		return 0;
 ```
 
-__The _Arguments_ (run & start)__
+__the _arguments_ (run & start)__
 
 ```
 (gdb) start 1 $(pwd) $HOME
