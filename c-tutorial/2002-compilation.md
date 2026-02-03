@@ -10,11 +10,8 @@ int main(void) {
 }
 ```
 
-----
-
 ```sh
 # compile
-
 cc -o main main.c
 ```
 
