@@ -2,6 +2,8 @@
 
 ----
 
+__Library__
+
 ```c
 // easymath.h
 
@@ -21,21 +23,28 @@ int easymath_add(int a, int b) {
 }
 ```
 
+_compile (ver 1.0.0)_
+
 ```sh
-# compile (version 1.0.0)
 gcc -fPIC -shared \
     -Wl,-soname,libeasymath.so.1 \
     -o libeasymath.so.1.0.0 \
     easymath.c
+```
 
-# observe
+_observe_
+
+```sh
 readelf -d libeasymath.so.1.0.0
 
 Dynamic section at offset 0x2e68 contains 18 entries:
 Tag                Type                 Name/Value
 0x000000000000000e (SONAME)             Library soname: [libeasymath.so.1]
+```
 
-# install (version 1.0.0)
+_install (ver 1.0.0)_
+
+```sh
 mkdir -p /usr/local/{lib,include}
 
 cp easymath.h           /usr/local/include/
@@ -49,7 +58,7 @@ ln -sf libeasymath.so.1      libeasymath.so       # Linker name symlink
 ldconfig
 ```
 
-----
+__Program__
 
 ```c
 /// main.c
@@ -67,28 +76,38 @@ int main(void) {
 }
 ```
 
+_compile_
+
 ```sh
-# compile
 cc -o main main.c -leasymath
+```
 
-# observe
+_observe_
+
+```sh
 ldd ./main
-libeasymath.so.1 => /usr/local/lib/libeasymath.so.1
 
+libeasymath.so.1 => /usr/local/lib/libeasymath.so.1
+```
+
+```sh
 readelf -d ./main
 
 Dynamic section at offset 0x2da8 contains 28 entries:
 Tag                Type                 Name/Value
 0x0000000000000001 (NEEDED)             Shared library: [libeasymath.so.1]
+```
 
-# run (works even after upgrade to libeasymath.so -> libeasymath.so.2)
+_run (works even after upgrade to libeasymath.so -> libeasymath.so.2)_
+
+``` 
 ./main
 6 + 10 = 16
 ```
 
-----
+__Reference__
 
-From `man 1 ld`
+_man 1 ld_
 
 ```
 -soname=name
