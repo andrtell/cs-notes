@@ -88,6 +88,6 @@ s = 0x7fffffffec96 "ABC"
 s = 0x7fffffffec96 "123"
 ```
 
-----
+__Reference__
 
 [4.2 Starting your Program](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Starting.html#Starting)
