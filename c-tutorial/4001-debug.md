@@ -24,6 +24,8 @@ cc -O0 -g -o main main.c
 gdb ./main
 ```
 
+_redirect output_
+
 ```
 (gdb) run > poem.txt
 
