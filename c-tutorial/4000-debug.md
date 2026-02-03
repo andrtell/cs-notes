@@ -40,7 +40,26 @@ Temporary breakpoint 1, main () at main.c:4
 _Arguments (works with both run and start)_
 
 ```
+(gdb) start 1 $(pwd) $HOME
 
+Breakpoint 1, main (argc=4, argv=0x7fffffffde48) at main.c:2
+2		return 0;
+
+(gdb) show args
+
+Argument list to give program being debugged when it is started is "1 $(pwd) $HOME".
+```
+
+```
+(gdb) print argc
+
+$1 = 4
+```
+
+```
+(gdb) print *argv@argc
+
+$2 = {0x7fffffffe1c0 "/tmp/main", 0x7fffffffe1ca "1", 0x7fffffffe1cc "/tmp", 0x7fffffffe1d1 "/home/bob"}
 ```
 
 ----
