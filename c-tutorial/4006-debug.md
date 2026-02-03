@@ -14,13 +14,19 @@ int main(void) {
 }
 ```
 
-```sh
-# compile
-cc -O0 -g -o main main.c
+_compile_
 
-# debug
+```sh
+cc -O0 -g -o main main.c
+```
+
+_debug_
+
+```sh
 gdb ./main
 ```
+
+__GDB__
 
 _watch_
 
