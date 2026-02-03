@@ -16,20 +16,23 @@ int main(void) {
 }
 ```
 
+_compile_
+
 ```sh
-# compile
 # note 1: -lc is implied.
 # note 2: -lm comes after main.c.
-cc main.c -lm
 
-# run
+cc main.c -lm
+```
+
+_run_
+
+```sh
 ./a.out
 The square root of 1804289383.0 is 42476.9.
 ```
 
-----
-
-From `man 1 gcc`
+_man 1 gcc_
 
 ```
 -l library
@@ -57,40 +60,4 @@ From `man 1 gcc`
     Thus, foo.o -lz bar.o searches library z after file foo.o but before bar.o.
     If bar.o refers to functions in z, those functions may not be loaded.
 
-```
-
-From `man 3 sqrt`
-
-```
-LIBRARY
-       Math library (libm, -lm)
-
-SYNOPSIS
-       #include <math.h>
-
-       double sqrt(double x);
-```
-
-_From:_ `man 3 rand`
-
-```
-LIBRARY
-       Standard C library (libc, -lc)
-
-SYNOPSIS
-       #include <stdlib.h>
-
-       int rand(void);
-```
-
-_From:_ `man 3 printf`
-
-```
-LIBRARY
-       Standard C library (libc, -lc)
-
-SYNOPSIS
-       #include <stdio.h>
-
-       int printf(const char *restrict format, ...);
 ```
