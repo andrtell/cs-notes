@@ -21,6 +21,7 @@ int easymath_add(int a, int b) {
 }
 ```
 
+----
 
 ```sh
 # compile
