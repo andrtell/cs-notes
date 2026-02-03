@@ -18,10 +18,12 @@ int main(void) {
 
 ```sh
 # compile
-cc -O0 -g -o main main.c
+
+ cc -O0 -g -o main main.c
 
 # debug
-gdb ./main
+
+ gdb ./main
 ```
 
 ----
@@ -30,31 +32,31 @@ __watch__
 
 ```
 (gdb) start
-Temporary breakpoint 1, main () at main.c:4
-4		int product = 1;
+
+ Temporary breakpoint 1, main () at main.c:4
+ 4		int product = 1;
 
 (gdb) watch product
-Hardware watchpoint 2: product
+
+ Hardware watchpoint 2: product
 
 (gdb) continue
-...
 
-Hardware watchpoint 2: product
+ Hardware watchpoint 2: product
 
-Old value = -8584
-New value = 1
-main () at main.c:5
-5		for (int n = 1; n <= 10; n++) {
+ Old value = -8584
+ New value = 1
+ main () at main.c:5
+ 5		 for (int n = 1; n <= 10; n++) {
 
 (gdb) continue
-...
 
-Hardware watchpoint 2: product
+ Hardware watchpoint 2: product
 
-Old value = 1
-New value = 2
-main () at main.c:5
-5		for (int n = 1; n <= 10; n++) {
+ Old value = 1
+ New value = 2
+ main () at main.c:5
+ 5		 for (int n = 1; n <= 10; n++) {
 ```
 
 ----
