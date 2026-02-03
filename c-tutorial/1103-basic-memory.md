@@ -21,23 +21,23 @@ int main() {
 ```sh
 # compile
 
-cc -o greet greet.c
+ cc -o greet greet.c
 ```
 
 ```sh
 # observe
 
-objdump -s -j .data ./greet
+ objdump -s -j .data ./greet
 
-0000000000004010 <name>:
-    4010:	50 45 54 45 52 00                                   PETER.
+ 0000000000004010 <name>:
+     4010:	50 45 54 45 52 00                                   PETER.
 ```
 
 ```sh
 # run
 
-./greet
-Hello, PETER!
+ ./greet
+ Hello, PETER!
 ```
 
 
