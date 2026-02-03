@@ -21,6 +21,7 @@ int easymath_add(int a, int b) {
 }
 ```
 
+----
 
 ```sh
 # compile (version 1.0.0)
@@ -74,6 +75,8 @@ int main(void) {
   printf("%d + %d = %d\n", a, b, c);
 }
 ```
+
+----
 
 ```sh
 # compile
