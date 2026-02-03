@@ -36,17 +36,16 @@ int main(void) {
 
 ```sh
 # compile
-cc -O0 -g -o main main.c
-```
 
-```sh
-# run
+cc -O0 -g -o main main.c
+
+# run (terminal 1)
+
 ./main
 Started with PID: 113247
-```
 
-```sh
-# debug (in second terminal)
+# debug (terminal 2)
+
 gdb
 ```
 
@@ -56,17 +55,21 @@ gdb
 (gdb) attach 113247
 
 (gdb) break main.c:22
-Breakpoint 1 at 0x6454099ac24e: file main.c, line 22.
+
+ Breakpoint 1 at 0x6454099ac24e: file main.c, line 22.
 
 (gdb) continue
-Breakpoint 1, main () at main.c:22
-22		printf(".");
+
+ Breakpoint 1, main () at main.c:22
+ 22		 printf(".");
 
 (gdb) print running
-$1 = 1
+
+ $1 = 1
 
 (gdb) kill
-[Inferior 1 (process 113247) killed]
+
+ [Inferior 1 (process 113247) killed]
 ```
 
 ----
