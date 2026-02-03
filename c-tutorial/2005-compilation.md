@@ -10,13 +10,13 @@ int main(void) {
 }
 ```
 
+_compile_
+
 ```sh
-# compile
 cc -O3 main.c
 ```
-----
 
-From `man 1 gcc`
+_man 1 gcc_
 
 ```
 Without any optimization option, the compiler's goal is to reduce the
