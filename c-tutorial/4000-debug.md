@@ -35,8 +35,8 @@ __start__
 
 ```
 (gdb) start
-Temporary breakpoint 1, main () at main.c:4
-4		return 0;
+Temporary breakpoint 1, main (argc=1, argv=0x7fffffffde78) at main.c:5
+5	  char *s = getenv("VAR");
 ```
 
 __the _arguments_ (run & start)__
