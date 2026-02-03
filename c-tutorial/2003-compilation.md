@@ -10,14 +10,13 @@ int main(void) {
 }
 ```
 
+_compile_
+
 ```sh
-# compile
 cc -g main.c
 ```
 
-----
-
-From `man 1 gcc`
+_man 1 gcc_
 
 ```
 -g  Produce  debugging  information  in  the  operating  system's  native
@@ -35,7 +34,7 @@ From `man 1 gcc`
     use -gvms (see below).
 ```
 
-From https://en.wikipedia.org/wiki/Stabs
+https://en.wikipedia.org/wiki/Stabs
 
 ```
 At one stage stabs was widely used on Unix systems, but the newer DWARF format has largely supplanted it. 
