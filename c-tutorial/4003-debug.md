@@ -52,6 +52,13 @@ add (a=2, b=2) at main.c:4
 4		int sum = a + b;
 ```
 
+__next__
+
+```
+(gdb) next
+5		return sum;
+```
+
 __backtrace__
 
 ```
@@ -59,13 +66,6 @@ __backtrace__
 #0  add (a=2, b=2) at main.c:4
 #1  0x0000555555555165 in times2 (c=2) at main.c:9
 #2  0x0000555555555184 in main () at main.c:14
-```
-
-__next__
-
-```
-(gdb) next
-5		return sum;
 ```
 
 __continue__
