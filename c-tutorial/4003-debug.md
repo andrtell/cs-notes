@@ -22,7 +22,7 @@ cc -O0 -g -o main main.c
 gdb ./main
 ```
 
-_break \<locspec\>_  _(main | main.c:main | 4 | main.c:4)_
+_break \<locspec\>  = main | main.c:main | 4 | main.c:4 | ..._
 
 ```
 (gdb) break main
@@ -66,29 +66,6 @@ Num     Type           Disp Enb Address            What
 
 ----
 
-From [GDB Docs/Set-Breaks](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks).
+[5.1.1 Setting Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks).
 
-
-```
-break <locspec>
-
-Set a breakpoint at all the code locations in your program
-that result from resolving the given <locspec>.
-```
-
-```
-break ... if cond
-
-Set a breakpoint with condition cond;
-evaluate the expression cond each time the breakpoint is reached,
-and stop only if the value is nonzero—that is, if cond evaluates as true.
-```
-
-```
-info break [list…]
-
-Print a table of all breakpoints, watchpoints, tracepoints,
-and catchpoints set and not deleted.
-```
-
-See [GDB Docs/Linespec-Locations](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Linespec-Locations.html#Linespec-Locations).
+[9.2 Location Specifications](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Linespec-Locations.html#Linespec-Locations).
