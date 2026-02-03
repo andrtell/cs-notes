@@ -43,7 +43,6 @@ __the _arguments_ (run & start)__
 
 ```
 (gdb) start 1 $(pwd) $HOME
-...
 
 (gdb) show args
 Argument list to give program being debugged when it is started is "1 $(pwd) $HOME".
@@ -62,10 +61,8 @@ __the _environment___
 VAR=ABC
 
 (gdb) break main.c:6
-...
 
 (gdb) run
-...
 
 (gdb) info locals
 s = 0x7fffffffec96 "ABC"
@@ -73,7 +70,6 @@ s = 0x7fffffffec96 "ABC"
 (gdb) set environment VAR=123
 
 (gdb) run
-...
 
 (gdb) info locals
 s = 0x7fffffffec96 "123"
