@@ -10,8 +10,9 @@ int main(void) {
 }
 ```
 
+_compile_
+
 ```sh
-# compile
 cc -Wall -Wextra main.c
 
 main.c: In function ‘main’:
@@ -20,9 +21,7 @@ main.c:2:13: warning: unused variable ‘answer’ [-Wunused-variable]
       |             ^~~~~~
 ```
 
-----
-
-From `man 1 gcc`
+_man 1 gcc_
 
 ```
 -Wall
