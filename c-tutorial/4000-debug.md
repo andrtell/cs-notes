@@ -37,6 +37,12 @@ Temporary breakpoint 1, main () at main.c:4
 4		return 0;
 ```
 
+_Arguments (works with both run and start)_
+
+```
+
+```
+
 ----
 
 From [GDB Docs/Starting](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Starting.html#Starting)
