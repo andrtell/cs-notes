@@ -21,30 +21,21 @@ int easymath_add(int a, int b) {
 }
 ```
 
-----
-
 ```sh
 # compile (version 1.0.0)
-
 gcc -fPIC -shared \
     -Wl,-soname,libeasymath.so.1 \
     -o libeasymath.so.1.0.0 \
     easymath.c
-```
 
-```sh
 # observe
-
 readelf -d libeasymath.so.1.0.0
 
 Dynamic section at offset 0x2e68 contains 18 entries:
 Tag                Type                 Name/Value
 0x000000000000000e (SONAME)             Library soname: [libeasymath.so.1]
-```
 
-```sh
 # install (version 1.0.0)
-
 mkdir -p /usr/local/{lib,include}
 
 cp easymath.h           /usr/local/include/
@@ -76,19 +67,12 @@ int main(void) {
 }
 ```
 
-----
-
 ```sh
 # compile
-
 cc -o main main.c -leasymath
-```
 
-```sh
 # observe
-
 ldd ./main
-
 libeasymath.so.1 => /usr/local/lib/libeasymath.so.1
 
 readelf -d ./main
@@ -96,11 +80,8 @@ readelf -d ./main
 Dynamic section at offset 0x2da8 contains 28 entries:
 Tag                Type                 Name/Value
 0x0000000000000001 (NEEDED)             Shared library: [libeasymath.so.1]
-```
 
-```sh
 # run (works even after upgrade to libeasymath.so -> libeasymath.so.2)
-
 ./main
 6 + 10 = 16
 ```
