@@ -2,6 +2,8 @@
 
 ----
 
+__Program__
+
 ```c
 // greet.c
 
@@ -31,19 +33,24 @@ int main() {
 }
 ```
 
-```sh
-# compile
-cc -o greet greet.c
+_compile_
 
-# run
+```sh
+cc -o greet greet.c
+```
+
+_run_
+
+```sh
 ./greet
+
 Peter<ENTER>
 Hello, Peter!
 ```
 
-----
+__Reference__
 
-From `man 3 malloc`
+_man 3 malloc_
 
 ```
 LIBRARY
