@@ -6,6 +6,7 @@
 // main.c
 
 int main(int argc, char *argv[]) {
+  char *s = getenv("VAR");
   return 0;
 }
 ```
@@ -17,7 +18,7 @@ int main(int argc, char *argv[]) {
 cc -O0 -g -o main main.c
 
 # debug
-gdb ./main
+VAR=ABC gdb ./main
 ```
 
 ----
