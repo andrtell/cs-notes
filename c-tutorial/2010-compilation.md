@@ -10,6 +10,7 @@ ls /not/the/usual/place/easymath
 libeasymath.so
 easymath.h
 ```
+----
 
 ```c
 /// main.c
@@ -26,6 +27,8 @@ int main(void) {
   printf("%d + %d = %d\n", a, b, c);
 }
 ```
+
+----
 
 ```sh
 # compile
