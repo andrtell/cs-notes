@@ -2,6 +2,8 @@
 
 ----
 
+__Program__
+
 ```c
 // main.c
 
@@ -59,6 +61,6 @@ main () at main.c:5
 5		 for (int n = 1; n <= 10; n++) {
 ```
 
-----
+__Reference__
 
 [5.1.2 Setting Watchpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Watchpoints.html#Set-Watchpoints)
