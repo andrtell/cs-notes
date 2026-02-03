@@ -6,4 +6,4 @@
 
 [Compilation](./2001-compilation.md)
 
-[Debug](../4000-debug.md)
+[Debug](./4000-debug.md)
