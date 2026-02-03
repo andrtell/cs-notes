@@ -2,6 +2,8 @@
 
 ----
 
+__Program__
+
 ```c
 // main.c
 
@@ -20,6 +22,8 @@ main.c:2:13: warning: unused variable ‘answer’ [-Wunused-variable]
     2 |         int answer = 42;
       |             ^~~~~~
 ```
+
+__Reference__
 
 _man 1 gcc_
 
