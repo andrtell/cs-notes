@@ -2,6 +2,8 @@
 
 ----
 
+__Program__
+
 ```c
 // main.c
 
@@ -15,6 +17,8 @@ _compile_
 ```sh
 cc -O3 main.c
 ```
+
+__Reference__
 
 _man 1 gcc_
 
