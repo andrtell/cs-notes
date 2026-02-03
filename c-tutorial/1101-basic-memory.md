@@ -21,6 +21,8 @@ int main(void) {
 }
 ```
 
+----
+
 ```sh
 # compile
 
