@@ -2,7 +2,11 @@
 
 ----
 
-__Program__
+Initialized static memory (.DATA)
+
+----
+
+__Program source__
 
 ```c
 // greet.c
