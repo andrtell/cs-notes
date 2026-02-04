@@ -47,7 +47,7 @@ Disassembly of section .text:
 
 ----
 
-__Reference__
+__References__
 
 _man 1 gcc_
 
