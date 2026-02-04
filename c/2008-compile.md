@@ -51,7 +51,7 @@ Link to un-versioned library.
 
 ----
 
-__Program source__
+__The program__
 
 ```c
 /// main.c
