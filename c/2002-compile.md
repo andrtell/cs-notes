@@ -1,8 +1,8 @@
-[Index](./index.md) [Prev](./1104-basic-memory.md) [Next](./2002-compilation.md)
+[Index](./index.md) [Prev](./2001-compile.md) [Next](./2003-compile.md)
 
 ----
 
-__Program__
+__Source__
 
 ```c
 // main.c
@@ -20,7 +20,7 @@ _compile_
 cc -c main.c
 ```
 
-_observe_
+_observe (unlinked!)_
 
 ```sh
 objdump -S main.o
