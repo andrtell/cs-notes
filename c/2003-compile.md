@@ -2,7 +2,7 @@
 
 ----
 
-Comment on the _-g_ flag.
+Comment on the `-g` flag.
 
 ----
 
