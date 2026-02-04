@@ -4,7 +4,7 @@ Using `LD_LIBRARY_PATH` to resolve a library at execution time.
 
 ----
 
-__Source__
+__Program source__
 
 ```c
 /// main.c
