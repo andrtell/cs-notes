@@ -33,7 +33,9 @@ _compile_
 cc -fPIC -shared -o libeasymath.so easymath.c
 ```
 
-__Reference__
+----
+
+__References__
 
 _man 1 gcc_
 
