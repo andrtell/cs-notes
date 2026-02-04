@@ -17,6 +17,8 @@ __GCC Cheat Sheet__
 | -Wextra            | Enables some extra warnings         | cc -Wextra                            |                                                                                                                                            |
 |                    | (same as -W)                        |                                       |                                                                                                                                            |
 | -l _library_       | Link with _library_                 | cc math.c -lm                         |                                                                                                                                            |
+| -I                 |                                     |                                       |                                                                                                                                            |
+| -L                 |                                     |                                       |                                                                                                                                            |
 | -shared            | Produce  a  shared  object          | cc -shared -fPIC -o libeasy.so easy.c |                                                                                                                                            |
 
 
