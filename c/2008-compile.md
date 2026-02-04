@@ -6,7 +6,7 @@ Compiling and installing a un-versioned library.
 
 ----
 
-__Library source__
+__The library__
 
 ```c
 // easymath.h
