@@ -2,7 +2,9 @@
 
 ----
 
-Link a binary to a library at a non-standard location.
+Link to a library at a non-standard location.
+
+----
 
 __Program source__
 
