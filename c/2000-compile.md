@@ -19,7 +19,7 @@ __GCC Cheat Sheet__
 | -l _library_       | Link with _library_                    | cc math.c -lm                         |                 |
 | -I _dir_           | Add _dir_ to the list of directories   |                                       |                 |
 |                    | to be searched for header files.       |                                       |                 |
-| -Ldir              | Add _dir_ to the list of               |                                       |                 |
+| -L _dir_           | Add _dir_ to the list of               |                                       |                 |
 |                    | directories to be searched for -l      |                                       |                 |
 | -shared            | Produce  a  shared  object             | cc -shared -fPIC -o libeasy.so easy.c |                 |
 
