@@ -56,7 +56,7 @@ ldd ./program
 libeasy.so => /not/the/usual/place/easy/libeasy.so
 ```
 
-_Example 4_
+__Example 4__
 
 ```sh
 export LIB_DIR=/not/the/usual/place/easy
@@ -69,7 +69,12 @@ cc -I $LIB_DIR \
 
 ./program
 
+./program: error while loading shared libraries: libeasy.so: \
+   cannot open shared object file: No such file or directory
 
+export LD_LIBRARY_PATH=$LIB_DIR
+
+./program
 ```
 
 
