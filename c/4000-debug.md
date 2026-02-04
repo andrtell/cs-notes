@@ -46,6 +46,9 @@ __Cheat Sheet__
 | clear _loc_        | Remove breakpoint at _loc_.       | clear main.c:5      |                                                                                                                       |
 | enable _N_         | Enable breakpoint _N_.            | enable 1            | [5.1.5 Disabling Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Disabling.html#Disabling)        | 
 | disable _N_        | Disable breakpoint _N_.           | disable 1           |                                                                                                                       |
+| continue           |                                   |                     |                                                                                                                       |
+| step               |                                   |                     |                                                                                                                       |
+| next               |                                   |                     |                                                                                                                       |
 
 
 
