@@ -1,8 +1,8 @@
-[Index](./index.md) [Prev](./2006-compilation.md) [Next](./2008-compilation.md)
+[Index](./index.md) [Prev](./2003-compile.md) [Next](./2005-compile.md)
 
 ----
 
-__Program__
+__Source__
 
 ```c
 // main.c
