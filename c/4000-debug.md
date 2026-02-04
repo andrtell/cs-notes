@@ -31,17 +31,18 @@ __Cheat Sheet__
 | GDB                | Description                       | Example           | Reference                                                                                                             |
 | ------------------ | --------------------------------- | ----------------  | --------------------------------------------------------------------------------------------------------------------- |
 | run                | Start program.                    |                   | [4.2 Starting your Program](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Starting.html#Starting)            |
-| run args...        |                                   | run $(pwd) $HOME  |                                                                                                                       |
+| run _arg+_         |                                   | run $(pwd) $HOME  |                                                                                                                       |
+| run > _file_       | Redirect output.                  |                   |                                                                                                                       |
 | start              | Start program. Break at main().   |                   |                                                                                                                       |
-| start args...      |                                   |                   |                                                                                                                       |
-| break \<locspec\>  | Add breakpoint.                   | break main        | [5.1.1 Setting Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)        |
+| start _arg+_       |                                   |                   |                                                                                                                       |
+| break _loc_        | Add breakpoint.                   | break main        | [5.1.1 Setting Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)        |
 |                    |                                   | break main.c:main |                                                                                                                       |
 |                    |                                   | break main.c:5    |                                                                                                                       |
 |                    |                                   | break 5           |                                                                                                                       |
 | break ... if       | Add conditional breakpoint.       | break 5 if x > 1  |                                                                                                                       |
 | info break         | List breakpoints.                 |                   |                                                                                                                       |
-| delete \<N\>       | Remove breakpoint N.              | delete 1          | [5.1.4 Deleting Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Delete-Breaks.html#Delete-Breaks) |
-| clear \<locspec\>  | Remove breakpoint at \<locspec\>. | clear main.c:5    |                                                                                                                       |
+| delete _N_         | Remove breakpoint N.              | delete 1          | [5.1.4 Deleting Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Delete-Breaks.html#Delete-Breaks) |
+| clear _loc_        | Remove breakpoint at \<locspec\>. | clear main.c:5    |                                                                                                                       |
 
 
 
