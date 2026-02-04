@@ -24,7 +24,17 @@ __GCC Cheat Sheet__
 | -Wl,option         | Pass option as an option to the linker. | cc -Wl,-rpath,$LIB_DIR                | man 1 ld        |
 | -shared            | Produce  a  shared  object              | cc -shared -fPIC -o libeasy.so easy.c |                 |
 
+__Example 1__
 
+```sh
+cc -g -Wall -Wextra -o main main.c
+```
+
+__Example 2__
+
+```sh
+
+```
 
 
 
