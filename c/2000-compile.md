@@ -4,10 +4,11 @@
 
 __GCC Cheat Sheet__
 
-| GCC Flag           | Descriptions                        | Examples            | References                                                                                                                                 |
-| ------------------ | ----------------------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| -c                 | Compile but do not link.            | cc -c main.c        | man 1 gcc                                                                                                                                  |
-| -g                 | Add debug information.              | cc -g main.c        |                                                                                                                                            |
-| -o _file_          | Place the primary output in _file_. | cc -o main main.c   |                                                                                                                                            |
+| GCC Flag           | Descriptions                        | Examples             | References                                                                                                                                 |
+| ------------------ | ----------------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| -c                 | Compile but do not link.            | cc -c                | man 1 gcc                                                                                                                                  |
+| -g                 | Add debug information.              | cc -g                |                                                                                                                                            |
+| -o _file_          | Place the primary output in _file_. | cc -o main           |                                                                                                                                            |
+| -std=_name_        |                                     | cc -std=gnu18        |                                                                                                                                            |
 
 
