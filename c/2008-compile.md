@@ -2,7 +2,7 @@
 
 ----
 
-Build and install a un-versioned library.
+Compiling and installing a un-versioned library.
 
 ----
 
