@@ -11,5 +11,7 @@ __GCC Cheat Sheet__
 | -o _file_          | Place the primary output in _file_. | cc -o main           |                                                                                                                                            |
 | -std=_standard_    | Set the language standard           | cc -std=gnu17        |                                                                                                                                            |
 |                    | -std=_gnu17_ is the default for C.  |                      |                                                                                                                                            |
+| -O0, -O1, -O2, -O3 | Set the level of optimization       | cc -O3               |                                                                                                                                            |
+|                    | -O0 is the default.                 |                      |                                                                                                                                            |
 
 
