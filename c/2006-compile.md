@@ -20,7 +20,7 @@ int main(void) {
 }
 ```
 
-_observe_
+_observe library location_
 
 ```sh
 ls /not/the/usual/place/easymath
