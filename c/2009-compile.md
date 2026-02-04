@@ -2,6 +2,8 @@
 
 ----
 
+Building and installing a versioned library shared object.
+
 __Library source__
 
 ```c
