@@ -53,7 +53,7 @@ cc -I $LIB_DIR \
    -o program
 
 ldd ./program
-
+libeasy.so => /not/the/usual/place/easy/libeasy.so
 ```
 
 
