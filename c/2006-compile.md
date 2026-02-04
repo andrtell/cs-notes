@@ -2,7 +2,7 @@
 
 ----
 
-Link to a library at a non-standard location.
+Compiling and linking to a library in a non-standard location.
 
 ----
 
