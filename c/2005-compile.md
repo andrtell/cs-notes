@@ -6,7 +6,7 @@ Compiling a library / shared object.
 
 ----
 
-__Library Source__
+__The library__
 
 ```c
 // easymath.h
