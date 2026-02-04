@@ -2,7 +2,7 @@
 
 ----
 
-Build and install a versioned library.
+Compiling and installing a versioned library.
 
 ----
 
