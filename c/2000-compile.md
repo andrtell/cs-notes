@@ -5,7 +5,7 @@
 __GCC Cheat Sheet__
 
 | GCC Flag           | Descriptions                           | Examples                              | References      |
-| ------------------ | -------------------------------------- | ------------------------------------- | ----------------|
+| ------------------ | -------------------------------------- | ------------------------------------- | --------------- |
 | -c                 | Compile but do not link.               | cc -c                                 | man 1 gcc       |
 | -g                 | Add debug information.                 | cc -g                                 |                 |
 | -o _file_          | Place the primary output in _file_.    | cc -o main                            |                 |
@@ -17,7 +17,9 @@ __GCC Cheat Sheet__
 | -Wextra            | Enables some extra warnings            | cc -Wextra                            |                 |
 |                    | (same as -W)                           |                                       |                 |
 | -l _library_       | Link with _library_                    | cc math.c -lm                         |                 |
-| -I _dir_           | Add the _dir_ to be searched for head  |                                       |                 |
+| -I _dir_           | Add the directory dir to the list of   |                                       |                 |
+|                    | directories to be searched for header  |                                       |                 |
+|                    | files.                                 |                                       |                 |
 | -L                 |                                        |                                       |                 |
 | -shared            | Produce  a  shared  object             | cc -shared -fPIC -o libeasy.so easy.c |                 |
 
