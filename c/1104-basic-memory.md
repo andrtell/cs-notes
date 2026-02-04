@@ -2,7 +2,11 @@
 
 ----
 
-__Program__
+Dynamic memory (HEAP).
+
+----
+
+__Program source__
 
 ```c
 // greet.c
@@ -48,7 +52,9 @@ Peter<ENTER>
 Hello, Peter!
 ```
 
-__Reference__
+----
+
+__References__
 
 _man 3 malloc_
 
