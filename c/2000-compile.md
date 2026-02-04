@@ -40,8 +40,8 @@ __Example 3__
 
 ```sh
 ls /not/the/usual/place/easy
- libeasymath.so
- easymath.h
+libeasy.so
+easy.h
 
 export LIB_DIR=/not/the/usual/place/easy
 
@@ -54,6 +54,22 @@ cc -I $LIB_DIR \
 
 ldd ./program
 libeasy.so => /not/the/usual/place/easy/libeasy.so
+```
+
+_Example 4_
+
+```sh
+export LIB_DIR=/not/the/usual/place/easy
+
+cc -I $LIB_DIR \
+   -L $LIB_DIR \
+   program.c \
+   -leasy \
+   -o program
+
+./program
+
+
 ```
 
 
