@@ -1,8 +1,12 @@
-[Index](./index.md) [Prev](./1101-basic-memory.md) [Next](./1103-basic-memory.md)
+[Index](./index.md) [Prev](./1101-memory.md) [Next](./1102-memory.md)
 
 ----
 
-__Program__
+Static memory allocations (i.e in the .bss or .data section)
+
+----
+
+__Program source__
 
 ```c
 // greet.c
