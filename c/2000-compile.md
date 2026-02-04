@@ -33,6 +33,12 @@ cc -g -Wall -Wextra -o program math.c -lm
 __Example 2__
 
 ```sh
+cc -fPIC -shared -o libeasy.so easy.c
+```
+
+__Example 3__
+
+```sh
 
 ```
 
