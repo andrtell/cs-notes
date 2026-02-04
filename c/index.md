@@ -8,6 +8,6 @@
 
 [Basic Memory](./1101-basic-memory.md)
 
-[Compilation](./2001-compilation.md)
+[Compile](./2001-compile.md)
 
 [Debug](./4000-debug.md)
