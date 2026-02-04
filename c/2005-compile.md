@@ -1,8 +1,8 @@
-[Index](./index.md) [Prev](./2008-compilation.md) [Next](./2010-compilation.md)
+[Index](./index.md) [Prev](./2004-compile.md) [Next](./2006-compile.md)
 
 ----
 
-__Library__
+__Source__
 
 ```c
 // easymath.h
