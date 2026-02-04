@@ -22,6 +22,8 @@ _compile_
 cc -g main.c
 ```
 
+----
+
 __Reference__
 
 _man 1 gcc_
