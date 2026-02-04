@@ -1,8 +1,8 @@
-[Index](./index.md) [Prev](./2011-compilation.md) [Next](./2013-compilation.md)
+[Index](./index.md) [Prev](./2007-compile.md) [Next](./2008-compile.md)
 
 ----
 
-__Library__
+__Library source__
 
 ```c
 // easymath.h
@@ -29,7 +29,7 @@ _compile_
 cc -fPIC -shared -o libeasymath.so easymath.c
 ```
 
-_install_
+_install un-versioned library_
 
 ```sh
 mkdir -p /usr/local/{lib,include}
@@ -41,7 +41,7 @@ cp libeasymath.so /usr/local/lib/
 ldconfig
 ```
 
-__Program__
+__Program source__
 
 ```c
 /// main.c
@@ -65,11 +65,10 @@ _compile_
 cc -o main main.c -leasymath
 ```
 
-_observe_
+_observe that linkage wored_
 
 ```sh
 ldd ./main
-
 libeasymath.so => /usr/local/lib/libeasymath.so
 ```
 
