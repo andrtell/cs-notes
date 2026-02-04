@@ -2,7 +2,7 @@
 
 ----
 
-Compile a library (shared object).
+Compiling a library / shared object.
 
 ----
 
