@@ -16,5 +16,6 @@ __GCC Cheat Sheet__
 | -Wall              |  Enables all the warnings           | cc -Wall             |                                                                                                                                            |
 | -Wextra            |  Enables some extra warnings        | cc -Wextra           |                                                                                                                                            |
 |                    |  (same as -W)                       |                      |                                                                                                                                            |
+| -l _library_       |  Link with _library_                | cc math.c -lm        |                                                                                                                                            |
 
 
