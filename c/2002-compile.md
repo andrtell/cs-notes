@@ -6,7 +6,7 @@ Comments on the `-c` flag.
 
 ----
 
-__Program source__
+__The program__
 
 ```c
 // main.c
