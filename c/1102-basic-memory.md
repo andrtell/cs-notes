@@ -2,7 +2,7 @@
 
 ----
 
-Static memory allocations (i.e in the .bss or .data section)
+Un-uninitialized static memory (.BSS)
 
 ----
 
