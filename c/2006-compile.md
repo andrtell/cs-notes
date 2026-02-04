@@ -61,7 +61,9 @@ _run_
 6 + 10 = 16
 ```
 
-__Reference__
+----
+
+__References__
 
 _man 1 gcc_
 
