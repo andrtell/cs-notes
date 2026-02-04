@@ -13,10 +13,10 @@ __GCC Cheat Sheet__
 |                    | -std=_gnu17_ is the default for C.  |                                       |                                                                                                                                            |
 | -O0, -O1, -O2, -O3 | Set the level of optimization       | cc -O3                                |                                                                                                                                            |
 |                    | -O0 is the default.                 |                                       |                                                                                                                                            |
-| -Wall              |  Enables all the warnings           | cc -Wall                              |                                                                                                                                            |
-| -Wextra            |  Enables some extra warnings        | cc -Wextra                            |                                                                                                                                            |
-|                    |  (same as -W)                       |                                       |                                                                                                                                            |
-| -l _library_       |  Link with _library_                | cc math.c -lm                         |                                                                                                                                            |
-| -shared            |                 | cc -shared -fPIC -o libeasy.so easy.c |                                                                                                                                            |
+| -Wall              | Enables all the warnings            | cc -Wall                              |                                                                                                                                            |
+| -Wextra            | Enables some extra warnings         | cc -Wextra                            |                                                                                                                                            |
+|                    | (same as -W)                        |                                       |                                                                                                                                            |
+| -l _library_       | Link with _library_                 | cc math.c -lm                         |                                                                                                                                            |
+| -shared            | Produce  a  shared  object          | cc -shared -fPIC -o libeasy.so easy.c |                                                                                                                                            |
 
 
