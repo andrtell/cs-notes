@@ -2,6 +2,10 @@
 
 ----
 
+Comment on -g flag
+
+----
+
 __Source__
 
 ```c
