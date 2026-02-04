@@ -6,7 +6,7 @@ Compiling and installing a versioned library.
 
 ----
 
-__Library source__
+__The library__
 
 ```c
 // easymath.h
@@ -68,7 +68,7 @@ Link to versioned library.
 
 ----
 
-__Program source__
+__The program__
 
 ```c
 /// main.c
