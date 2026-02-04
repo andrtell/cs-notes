@@ -2,7 +2,7 @@
 
 ----
 
-Link to a library
+Compiling and linking to a library in _the usual place_.
 
 ----
 
