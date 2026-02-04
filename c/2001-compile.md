@@ -1,4 +1,4 @@
-[Index](./index.md) [Prev](./1104-basic-memory.md) [Next](./2001-compile.md)
+[Index](./index.md) [Prev](./1104-basic-memory.md) [Next](./2002-compile.md)
 
 ----
 
