@@ -2,7 +2,7 @@
 
 ----
 
-Building and installing a versioned library shared object.
+Building and installing a versioned library.
 
 __Library source__
 
