@@ -2,6 +2,8 @@
 
 ----
 
+Building and installing a un-versioned library.
+
 __Library source__
 
 ```c
