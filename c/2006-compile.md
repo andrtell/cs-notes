@@ -2,7 +2,7 @@
 
 ----
 
-__Program__
+__Source__
 
 ```c
 /// main.c
