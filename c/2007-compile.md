@@ -61,7 +61,9 @@ export LD_LIBRARY_PATH=/not/the/usual/place/easymath
 6 + 10 = 16
 ```
 
-__Reference__
+----
+
+__References__
 
 _man 8 ld.so_
 
