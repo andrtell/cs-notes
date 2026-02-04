@@ -20,7 +20,7 @@ _compile_
 cc -c main.c
 ```
 
-_observe (unlinked!)_
+_observe unlinked state of object file_
 
 ```sh
 objdump -S main.o
