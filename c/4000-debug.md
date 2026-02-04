@@ -35,6 +35,7 @@ __Cheat Sheet__
 | run > _file_       | Redirect output.                  |                     |                                                                                                                       |
 | start              | Start program. Break at main().   |                     |                                                                                                                       |
 | start _arg+_       |                                   |                     |                                                                                                                       |
+| attach _PID_       |                                   |                     |                                                                                                                       |
 | break _loc_        | Add breakpoint.                   | break main          | [5.1.1 Setting Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)        |
 |                    |                                   | break main.c:main   |                                                                                                                       |
 |                    |                                   | break main.c:5      |                                                                                                                       |
