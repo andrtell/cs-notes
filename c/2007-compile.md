@@ -1,5 +1,7 @@
 [Index](./index.md) [Prev](./2006-compile.md) [Next](./2008-compile.md)
 
+Using `LD_LIBRARY_PATH` to resolve a library at execution time.
+
 ----
 
 __Source__
