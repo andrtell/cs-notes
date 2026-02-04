@@ -39,10 +39,6 @@ cc -fPIC -shared -o libeasy.so easy.c
 __Example 3__
 
 ```sh
-ls /not/the/usual/place/easy
-libeasy.so
-easy.h
-
 export LIB_DIR=/not/the/usual/place/easy
 
 cc -I $LIB_DIR \
