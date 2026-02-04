@@ -2,7 +2,11 @@
 
 ----
 
-__Source__
+Link to a library
+
+----
+
+__Program source__
 
 ```c
 // main.c
