@@ -4,21 +4,21 @@
 
 __GCC Cheat Sheet__
 
-| GCC Flag           | Descriptions                        | Examples                              | References                                                                                                                                 |
-| ------------------ | ----------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| -c                 | Compile but do not link.            | cc -c                                 | man 1 gcc                                                                                                                                  |
-| -g                 | Add debug information.              | cc -g                                 |                                                                                                                                            |
-| -o _file_          | Place the primary output in _file_. | cc -o main                            |                                                                                                                                            |
-| -std=_standard_    | Set the language standard           | cc -std=gnu17                         |                                                                                                                                            |
-|                    | -std=_gnu17_ is the default for C.  |                                       |                                                                                                                                            |
-| -O0, -O1, -O2, -O3 | Set the level of optimization       | cc -O3                                |                                                                                                                                            |
-|                    | -O0 is the default.                 |                                       |                                                                                                                                            |
-| -Wall              | Enables all the warnings            | cc -Wall                              |                                                                                                                                            |
-| -Wextra            | Enables some extra warnings         | cc -Wextra                            |                                                                                                                                            |
-|                    | (same as -W)                        |                                       |                                                                                                                                            |
-| -l _library_       | Link with _library_                 | cc math.c -lm                         |                                                                                                                                            |
-| -I                 |                                     |                                       |                                                                                                                                            |
-| -L                 |                                     |                                       |                                                                                                                                            |
-| -shared            | Produce  a  shared  object          | cc -shared -fPIC -o libeasy.so easy.c |                                                                                                                                            |
+| GCC Flag           | Descriptions                           | Examples                              | References      |
+| ------------------ | -------------------------------------- | ------------------------------------- | ----------------|
+| -c                 | Compile but do not link.               | cc -c                                 | man 1 gcc       |
+| -g                 | Add debug information.                 | cc -g                                 |                 |
+| -o _file_          | Place the primary output in _file_.    | cc -o main                            |                 |
+| -std=_standard_    | Set the language standard              | cc -std=gnu17                         |                 |
+|                    | -std=_gnu17_ is the default for C.     |                                       |                 |
+| -O0, -O1, -O2, -O3 | Set the level of optimization          | cc -O3                                |                 |
+|                    | -O0 is the default.                    |                                       |                 |
+| -Wall              | Enables all the warnings               | cc -Wall                              |                 |
+| -Wextra            | Enables some extra warnings            | cc -Wextra                            |                 |
+|                    | (same as -W)                           |                                       |                 |
+| -l _library_       | Link with _library_                    | cc math.c -lm                         |                 |
+| -I _dir_           | Add the _dir_ to be searched for head  |                                       |                 |
+| -L                 |                                        |                                       |                 |
+| -shared            | Produce  a  shared  object             | cc -shared -fPIC -o libeasy.so easy.c |                 |
 
 
