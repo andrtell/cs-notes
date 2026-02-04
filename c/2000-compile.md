@@ -27,7 +27,7 @@ __GCC Cheat Sheet__
 __Example 1__
 
 ```sh
-cc -g -Wall -Wextra -o main main.c
+cc -g -Wall -Wextra -o program math.c -lm
 ```
 
 __Example 2__
