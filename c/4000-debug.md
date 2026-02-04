@@ -38,6 +38,8 @@ __Cheat Sheet__
 |                  |                                 | break main.c:main |                                                                                                                |
 |                  |                                 | break main.c:5    |                                                                                                                |
 |                  |                                 | break 5           |                                                                                                                |
+| break ... if     | Add conditional breakpoint.     | break 5 if x > 1  |                                                                                                                |
+| info break       | List breakpoints.               |                   |                                                                                                                |
 
 __GDB__
 
