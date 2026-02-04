@@ -2,7 +2,9 @@
 
 ----
 
-Building and installing a versioned library.
+Build and install a versioned library.
+
+----
 
 __Library source__
 
@@ -60,6 +62,12 @@ ln -sf libeasymath.so.1      libeasymath.so       # Linker name symlink
 ldconfig
 ```
 
+----
+
+Link to versioned library.
+
+----
+
 __Program source__
 
 ```c
@@ -107,7 +115,9 @@ _run. Works even after upgrade to libeasymath.so -> libeasymath.so.2_
 6 + 10 = 16
 ```
 
-__Reference__
+----
+
+__References__
 
 _man 1 ld_
 
