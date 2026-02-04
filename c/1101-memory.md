@@ -1,8 +1,12 @@
-[Index](./index.md) [Prev](./1001-hello-world.md) [Next](./1102-basic-memory.md)
+[Index](./index.md) [Prev](./1001-hello-world.md) [Next](./1102-memory.md)
 
 ----
 
-__Program__
+Automatic memory allocation (i.e on the Stack).
+
+----
+
+__Program source__
 
 ```c
 // greet.c
