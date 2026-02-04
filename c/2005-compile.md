@@ -1,10 +1,10 @@
 [Index](./index.md) [Prev](./2004-compile.md) [Next](./2006-compile.md)
 
-Compile a library (shared object).
-
 ----
 
-__Source__
+Compile a library (shared object).
+
+__Library Source__
 
 ```c
 // easymath.h
