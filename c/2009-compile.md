@@ -1,8 +1,8 @@
-[Index](./index.md) [Prev](./2012-compilation.md) [Next](./2101-makefile.md)
+[Index](./index.md) [Prev](./2008-compile.md) [Next](./2101-makefile.md)
 
 ----
 
-__Library__
+__Library source__
 
 ```c
 // easymath.h
@@ -23,7 +23,7 @@ int easymath_add(int a, int b) {
 }
 ```
 
-_compile (ver 1.0.0)_
+_compile version 1.0.0_
 
 ```sh
 gcc -fPIC -shared \
@@ -32,7 +32,7 @@ gcc -fPIC -shared \
     easymath.c
 ```
 
-_observe_
+_observe soname_
 
 ```sh
 readelf -d libeasymath.so.1.0.0
@@ -42,7 +42,7 @@ Tag                Type                 Name/Value
 0x000000000000000e (SONAME)             Library soname: [libeasymath.so.1]
 ```
 
-_install (ver 1.0.0)_
+_install version 1.0.0_
 
 ```sh
 mkdir -p /usr/local/{lib,include}
@@ -58,7 +58,7 @@ ln -sf libeasymath.so.1      libeasymath.so       # Linker name symlink
 ldconfig
 ```
 
-__Program__
+__Program source__
 
 ```c
 /// main.c
@@ -98,7 +98,7 @@ Tag                Type                 Name/Value
 0x0000000000000001 (NEEDED)             Shared library: [libeasymath.so.1]
 ```
 
-_run (works even after upgrade to libeasymath.so -> libeasymath.so.2)_
+_run. Works even after upgrade to libeasymath.so -> libeasymath.so.2_
 
 ``` 
 ./main
