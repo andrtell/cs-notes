@@ -28,21 +28,24 @@ VAR=ABC gdb ./main
 
 __Cheat Sheet__
 
-| GDB                | Description                       | Example           | Reference                                                                                                             |
-| ------------------ | --------------------------------- | ----------------  | --------------------------------------------------------------------------------------------------------------------- |
-| run                | Start program.                    |                   | [4.2 Starting your Program](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Starting.html#Starting)            |
-| run _arg+_         |                                   | run $(pwd) $HOME  |                                                                                                                       |
-| run > _file_       | Redirect output.                  |                   |                                                                                                                       |
-| start              | Start program. Break at main().   |                   |                                                                                                                       |
-| start _arg+_       |                                   |                   |                                                                                                                       |
-| break _loc_        | Add breakpoint.                   | break main        | [5.1.1 Setting Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)        |
-|                    |                                   | break main.c:main |                                                                                                                       |
-|                    |                                   | break main.c:5    |                                                                                                                       |
-|                    |                                   | break 5           |                                                                                                                       |
-| break ... if       | Add conditional breakpoint.       | break 5 if x > 1  |                                                                                                                       |
-| info break         | List breakpoints.                 |                   |                                                                                                                       |
-| delete _N_         | Remove breakpoint N.              | delete 1          | [5.1.4 Deleting Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Delete-Breaks.html#Delete-Breaks) |
-| clear _loc_        | Remove breakpoint at \<locspec\>. | clear main.c:5    |                                                                                                                       |
+| GDB                | Description                       | Example             | Reference                                                                                                             |
+| ------------------ | --------------------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| run                | Start program.                    |                     | [4.2 Starting your Program](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Starting.html#Starting)            |
+| run _arg+_         |                                   | run 7 $(pwd) $HOME  |                                                                                                                       |
+| run > _file_       | Redirect output.                  |                     |                                                                                                                       |
+| start              | Start program. Break at main().   |                     |                                                                                                                       |
+| start _arg+_       |                                   |                     |                                                                                                                       |
+| break _loc_        | Add breakpoint.                   | break main          | [5.1.1 Setting Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Set-Breaks.html#Set-Breaks)        |
+|                    |                                   | break main.c:main   |                                                                                                                       |
+|                    |                                   | break main.c:5      |                                                                                                                       |
+|                    |                                   | break 5             |                                                                                                                       |
+| break ... if       | Add conditional breakpoint.       | break 5 if x > 1    |                                                                                                                       |
+| info break         | List breakpoints.                 |                     |                                                                                                                       |
+| delete _N_         | Remove breakpoint _N_.            | delete 1            | [5.1.4 Deleting Breakpoints](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Delete-Breaks.html#Delete-Breaks) |
+| clear _loc_        | Remove breakpoint at _loc_.       | clear main.c:5      |                                                                                                                       |
+| enable _N_         | Enable breakpoint _N_.            | enable 1            |                                                                                                                       |
+| disable _N_        | Disable breakpoint _N_.           | disable 1           |                                                                                                                       |
+
 
 
 
