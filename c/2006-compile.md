@@ -6,7 +6,7 @@ Compiling and linking to a library in a non-standard location.
 
 ----
 
-__Program source__
+__The program__
 
 ```c
 /// main.c
