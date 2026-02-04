@@ -4,7 +4,7 @@
 
 Link a binary to a library at a non-standard location.
 
-__Source__
+__Program source__
 
 ```c
 /// main.c
