@@ -60,5 +60,13 @@ ldd ./program
 libeasy.so => /not/the/usual/place/easy/libeasy.so
 ```
 
+Compiling a library and making use of `SONAME` to create a versioned copy.
+
+```sh
+cc -fPIC -shared \
+   -Wl,-soname,libeasy.so.1 \
+   -o libeasy.so.1.0.0 \
+   easy.c
+```
 
 
