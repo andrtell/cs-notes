@@ -21,7 +21,7 @@ __GCC Cheat Sheet__
 |                    | to be searched for header files.        |                                       |                 |
 | -L _dir_           | Add _dir_ to the list of                |                                       |                 |
 |                    | directories to be searched for -l.      |                                       |                 |
-| -Wl,option         | Pass option as an option to the linker. | cc -Wl,-rpath,$LIB_DIR                |                 |
+| -Wl,option         | Pass option as an option to the linker. | cc -Wl,-rpath,$LIB_DIR                | man 1 ld        |
 | -shared            | Produce  a  shared  object              | cc -shared -fPIC -o libeasy.so easy.c |                 |
 
 
