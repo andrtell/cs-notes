@@ -13,7 +13,7 @@ __GCC Cheat Sheet__
 |                    | -std=_gnu17_ is the default for C.  |                      |                                                                                                                                            |
 | -O0, -O1, -O2, -O3 | Set the level of optimization       | cc -O3               |                                                                                                                                            |
 |                    | -O0 is the default.                 |                      |                                                                                                                                            |
-| -Wall              |                                     |                      |                                                                                                                                            |
+| -Wall              |  Enables all the warnings           |                      |                                                                                                                                            |
 | -Wextra            |                                     |                      |                                                                                                                                            |
 
 
