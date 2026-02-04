@@ -39,6 +39,10 @@ cc -fPIC -shared -o libeasy.so easy.c
 __Example 3__
 
 ```sh
+ls /not/the/usual/place/easy
+ libeasymath.so
+ easymath.h
+
 export LIB_DIR=/not/the/usual/place/easy
 
 cc -I $LIB_DIR \
@@ -47,6 +51,9 @@ cc -I $LIB_DIR \
    -leasy \            # -leasy -> lib + easy + .so
    -Wl,-rpath,$LIB_DIR \
    -o program
+
+ldd ./program
+
 ```
 
 
