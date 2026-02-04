@@ -2,7 +2,7 @@
 
 ----
 
-Comment on -c flag.
+Comments on the _-c_ flag.
 
 ----
 
@@ -44,6 +44,8 @@ Disassembly of section .text:
   1c:	5d                   	pop    %rbp
   1d:	c3                   	ret
 ```
+
+----
 
 __Reference__
 
