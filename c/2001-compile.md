@@ -2,7 +2,9 @@
 
 ----
 
-__GCC Cheat Sheet__
+GCC Cheat Sheet
+
+---
 
 | GCC Flag           | Descriptions                            | Examples                              | References      |
 | ------------------ | --------------------------------------- | ------------------------------------- | --------------- |
@@ -23,6 +25,12 @@ __GCC Cheat Sheet__
 |                    | directories to be searched for -l.      |                                       |                 |
 | -Wl,option         | Pass option as an option to the linker. | cc -Wl,-rpath,$LIB_DIR                | man 1 ld        |
 | -shared            | Produce  a  shared  object              | cc -shared -fPIC -o libeasy.so easy.c |                 |
+
+---
+
+Quick examples
+
+----
 
 __Example 1__
 
