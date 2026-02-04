@@ -28,12 +28,16 @@ VAR=ABC gdb ./main
 
 __Cheat Sheet__
 
-| GDB           | Description                     | Example          |Reference                                                                                                    |
-| ------------- | ------------------------------- | ---------------- | ----------------------------------------------------------------------------------------------------------- |
-| run           | Start program.                  |                  | [4.2 Starting your Program](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Starting.html#Starting)  |
-| run [args]    |                                 | run $(pwd) $HOME |                                                                                                             |
-| start         | Start program. Break at main()  |                  |                                                                                                             |
-| start [args]  |                                 |                  |                                                                                                             |
+| GDB              | Description                     | Example           |Reference                                                                                                    |
+| ---------------- | ------------------------------- | ----------------  | ----------------------------------------------------------------------------------------------------------- |
+| run              | Start program.                  |                   | [4.2 Starting your Program](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Starting.html#Starting)  |
+| run [args]       |                                 | run $(pwd) $HOME  |                                                                                                             |
+| start            | Start program. Break at main(). |                   |                                                                                                             |
+| start [args]     |                                 |                   |                                                                                                             |
+| break [locspec]  | Add breakpoint.                 | break main        |                                                                                                             |
+|                  |                                 | break main.c:main |                                                                                                             |
+|                  |                                 | break main.c:5    |                                                                                                             |
+|                  |                                 | break 5           |                                                                                                             |
 
 __GDB__
 
