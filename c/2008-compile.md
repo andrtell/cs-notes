@@ -45,6 +45,12 @@ cp libeasymath.so /usr/local/lib/
 ldconfig
 ```
 
+----
+
+Link to un-versioned library.
+
+----
+
 __Program source__
 
 ```c
@@ -83,7 +89,9 @@ _run_
 6 + 10 = 16
 ```
 
-__Reference__
+----
+
+__References__
 
 https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html
 
