@@ -4,6 +4,8 @@
 
 Compile a library (shared object).
 
+----
+
 __Library Source__
 
 ```c
