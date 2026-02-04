@@ -1,8 +1,12 @@
-[Index](./index.md) [Prev](./0001-install.md) [Next](./1101-basic-memory.md)
+[Index](./index.md) [Prev](./0001-install.md) [Next](./1101-memory.md)
 
 ----
 
-__Program__
+Hello, world!
+
+----
+
+__Program source__
 
 ```c
 // hello.c
