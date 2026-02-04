@@ -23,7 +23,6 @@ int main(void) {
 _observe library location_
 
 ```sh
-# observe
 ls /not/the/usual/place/easymath
 
 libeasymath.so
