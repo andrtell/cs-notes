@@ -2,7 +2,11 @@
 
 ----
 
-__Source__
+Comment on -c flag.
+
+----
+
+__Program source__
 
 ```c
 // main.c
