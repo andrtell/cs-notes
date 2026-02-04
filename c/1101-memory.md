@@ -2,7 +2,7 @@
 
 ----
 
-Automatic memory allocation (i.e on the Stack).
+Automatic memory (STACK).
 
 ----
 
