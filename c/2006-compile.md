@@ -2,6 +2,8 @@
 
 ----
 
+Link a binary to a library at a non-standard location.
+
 __Source__
 
 ```c
