@@ -6,7 +6,7 @@ Un-uninitialized static memory (.BSS)
 
 ----
 
-__Program source__
+__The program__
 
 ```c
 // greet.c
