@@ -1,8 +1,8 @@
-[Index](./index.md) [Prev](./2007-compilation.md) [Next](./2009-compilation.md)
+[Index](./index.md) [Prev](./2009-compile.md) [Next](./2101-makefile.md)
 
 ----
 
-__Program__
+__The program__
 
 ```c
 // main.c
