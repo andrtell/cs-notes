@@ -96,7 +96,7 @@ into
 
 ```makefile
 program: $(objects)
-        $(CC) $(LDFLAGS) n.o $(LOADLIBES) $(LDLIBS)
+        $(CC) $(LDFLAGS) program.o $(LOADLIBES) $(LDLIBS)
 ```
 
 See [10 Using Implicit Rules](https://www.gnu.org/software/make/manual/make.html#Implicit-Rules) from the GNU Make manual.
