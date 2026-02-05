@@ -31,10 +31,11 @@ Variables can be used in a Makefile
 ----
 
 ```makefile
-CFLAGS = -g -Wall -Wextra
+CFLAGS  = -g -Wall -Wextra
+OBJECTS = main.o extra.o
 
-main : main.o extra.o
-        cc -o main main.o extra.o
+main : $(OBJECTS)
+        cc -o main $(OBJECTS)
 
 main.o : main.c defs.h
         cc $(CFLAGS) -c main.c
@@ -45,7 +46,7 @@ extra.o : extra.c defs.h extra.h
 .PHONY : clean
 
 clean :
-        rm main main.o extra.o
+        rm main $(OBJECTS)
 
 ```
 
@@ -56,12 +57,8 @@ Make can deduce prerequisites and recipes in rules.
 ----
 
 ```makefile
-NAME          = myprogram
-CC            = gcc
 CFLAGS        = -g -Wall -Wextra 
-LDFLAGS       =
-SOURCES       = main.c extra.c
-OBJECTS       = $(SOURCES:.c=.o)
+OBJECTS       = main.o extra.o
 
 main : $(OBJECTS)
 
