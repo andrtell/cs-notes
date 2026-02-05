@@ -2,7 +2,7 @@
 
 ----
 
-Compiling and linking to a library in _the usual place_.
+Compiling and linking to a library in _the usual place_ using the `-l` flag.
 
 ----
 
