@@ -42,3 +42,26 @@ clean :
         rm edit $(objects)
 
 ```
+
+Make has an implicit rule for updating a ‘.o’ file from a correspondingly named ‘.c’ file
+using a ‘cc -c’ command. 
+
+For example, it will use the recipe ‘cc -c main.c -o main.o’ to compile main.c into main.o. 
+
+```makefile
+objects = main.o kbd.o command.o
+
+edit : $(objects)
+        cc -o edit $(objects)
+
+main.o : defs.h
+        
+kbd.o : defs.h command.h
+        
+command.o : defs.h command.h
+
+.PHONY : clean     
+clean :
+        rm edit $(objects)
+
+```
