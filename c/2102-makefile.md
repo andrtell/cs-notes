@@ -32,6 +32,7 @@ Variables can be used in a Makefile
 
 ```makefile
 CFLAGS  = -g -Wall -Wextra
+
 OBJECTS = main.o extra.o
 
 main : $(OBJECTS)
@@ -58,6 +59,7 @@ Make can deduce prerequisites and recipes in rules.
 
 ```makefile
 CFLAGS  = -g -Wall -Wextra 
+
 OBJECTS = main.o extra.o
 
 main : $(OBJECTS)
