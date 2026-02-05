@@ -2,7 +2,7 @@
 
 ----
 
-Compiling and installing a plain library (no versions).
+Compiling and installing a library (no versions).
 
 ----
 
