@@ -27,7 +27,7 @@ clean :
 objects = main.o kbd.o command.o
 
 edit : $(objects)
-        cc -o edit main.o kbd.o command.o
+        cc -o edit $(objects)
 
 main.o : main.c defs.h
         cc -c main.c
