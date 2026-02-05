@@ -56,16 +56,17 @@ Make can deduce prerequisites and recipes in rules.
 ----
 
 ```makefile
+CFLAGS = -g -Wall -O3
+LDLIBS = -lm
+
 objects = main.o extra.o
 
 program : $(objects)
 
 main.o : defs.h
-        
 extra.o : defs.h extra.h
         
 .PHONY : clean
-
 clean :
         rm edit $(objects)
 ```
@@ -96,5 +97,4 @@ program: $(objects)
         $(CC) $(LDFLAGS) n.o $(LOADLIBES) $(LDLIBS)
 ```
 
-
-
+See [10 Using Implicit Rules](https://www.gnu.org/software/make/manual/make.html#Implicit-Rules) from the GNU Make manual.
