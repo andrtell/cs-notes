@@ -8,8 +8,8 @@ Simple Makefile
 ----
 
 ```makefile
-program : main.o extra.o
-        cc -o program main.o extra.o
+main : main.o extra.o
+        cc -o main main.o extra.o
 
 main.o : main.c defs.h
         cc -c main.c
@@ -20,32 +20,32 @@ extra.o : extra.c defs.h extra.h
 .PHONY : clean
 
 clean :
-        rm program main.o extra.o
+        rm main main.o extra.o
 
 ```
 
 ----
 
-Make variables
+Variables can be used in a Makefile
 
 ----
 
 ```makefile
-objects = main.o extra.o
+CFLAGS = -g -Wall -Wextra
 
-program : $(objects)
-        cc -o program $(objects)
+main : main.o extra.o
+        cc -o main main.o extra.o
 
 main.o : main.c defs.h
-        cc -c main.c
+        cc $(CFLAGS) -c main.c
 
 extra.o : extra.c defs.h extra.h
-        cc -c extra.c
+        cc $(CFLAGS) -c extra.c
 
 .PHONY : clean
 
 clean :
-        rm edit $(objects)
+        rm main main.o extra.o
 
 ```
 
@@ -56,12 +56,9 @@ Make can deduce prerequisites and recipes in rules.
 ----
 
 ```makefile
-CFLAGS = -g -Wall -O3
-LDLIBS = -lm
+CFLAGS = -g -Wall -Wextra
 
-objects = main.o extra.o
-
-program : $(objects)
+main : extra.o
 
 main.o : defs.h
 
@@ -70,7 +67,7 @@ extra.o : defs.h extra.h
 .PHONY : clean
 
 clean :
-        rm edit $(objects)
+        rm main main.o extra.o
 ```
 
 In the above Make transforms the rule:
@@ -89,14 +86,14 @@ main.o : main.c defs.h
 and the rule:
 
 ```makefile
-program : $(objects)
+main : extra.o
 ```
 
 into
 
 ```makefile
-program: $(objects)
-        $(CC) $(LDFLAGS) program.o $(LOADLIBES) $(LDLIBS)
+main: main.o extra.o
+        $(CC) $(LDFLAGS) main.o extra.o $(LOADLIBES) $(LDLIBS)
 ```
 
 See [10 Using Implicit Rules](https://www.gnu.org/software/make/manual/make.html#Implicit-Rules) from the GNU Make manual.
