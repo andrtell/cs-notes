@@ -42,6 +42,8 @@ main.o : main.c defs.h
 extra.o : extra.c defs.h extra.h
         cc -c extra.c
 
+.PHONY : clean
+
 clean :
         rm edit $(objects)
 
