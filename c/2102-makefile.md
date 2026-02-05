@@ -64,9 +64,11 @@ objects = main.o extra.o
 program : $(objects)
 
 main.o : defs.h
+
 extra.o : defs.h extra.h
         
 .PHONY : clean
+
 clean :
         rm edit $(objects)
 ```
