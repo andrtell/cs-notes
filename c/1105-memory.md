@@ -2,7 +2,7 @@
 
 ----
 
-Dynamic memory (HEAP).
+Manual/Dynamic memory (HEAP).
 
 ----
 
