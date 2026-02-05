@@ -23,7 +23,7 @@ long long int fib() {
 }
 
 int main() {
-  for (int i = 0; i < 20; i++) {
+  for (int i = 2; i <= 15; i++) {
     printf("fib(%d) = %lli\n", i, fib());
   }
 }
@@ -35,21 +35,25 @@ _compile_
 cc -o fib fib.c
 ```
 
-_observe_
-
-```sh
-objdump -s -j .data ./greet
-
-0000000000004010 <name>:
-     4010:	50 45 54 45 52 00                                   PETER.
-```
-
 _run_
 
 ```
 ./fib
 
-
+fib(2) = 1
+fib(3) = 2
+fib(4) = 3
+fib(5) = 5
+fib(6) = 8
+fib(7) = 13
+fib(8) = 21
+fib(9) = 34
+fib(10) = 55
+fib(11) = 89
+fib(12) = 144
+fib(13) = 233
+fib(14) = 377
+fib(15) = 610
 ```
 
 
