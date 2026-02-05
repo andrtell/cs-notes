@@ -6,7 +6,7 @@ Automatic memory (STACK).
 
 ----
 
-__Program source__
+__The program__
 
 ```c
 // greet.c
