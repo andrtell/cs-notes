@@ -32,19 +32,19 @@ Quick examples
 
 ----
 
-Compiling a program and linking it to a library.
+I. Compiling a program and linking it to a library.
 
 ```sh
 cc -g -Wall -Wextra -o program math.c -lm
 ```
 
-Compiling a library / shared object.
+II. Compiling a library / shared object.
 
 ```sh
 cc -fPIC -shared -o libeasy.so easy.c
 ```
 
-Compiling and linking a program to a library in a non-standard location.
+III. Compiling and linking a program to a library in a non-standard location.
 
 ```sh
 export LIB_DIR=/not/the/usual/place/easy
@@ -55,12 +55,16 @@ cc -I $LIB_DIR \
    -leasy \            # -leasy -> lib + easy + .so
    -Wl,-rpath,$LIB_DIR \
    -o program
+```
 
+_observe linkage_
+
+```sh
 ldd ./program
 libeasy.so => /not/the/usual/place/easy/libeasy.so
 ```
 
-Compiling a library and making use of `SONAME` to create a versioned copy.
+IV. Compiling a library and making use of `SONAME` to create a versioned copy.
 
 ```sh
 cc -fPIC -shared \
