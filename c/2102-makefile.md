@@ -70,3 +70,5 @@ extra.o : defs.h extra.h
 clean :
         rm edit $(objects)
 ```
+
+In the rule `main.o : defs.h` the prerequisite `main.c` and the recipe `cc -o main.o main.cc` is implicit.
