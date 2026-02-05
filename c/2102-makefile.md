@@ -57,8 +57,8 @@ Make can deduce prerequisites and recipes in rules.
 ----
 
 ```makefile
-CFLAGS        = -g -Wall -Wextra 
-OBJECTS       = main.o extra.o
+CFLAGS  = -g -Wall -Wextra 
+OBJECTS = main.o extra.o
 
 main : $(OBJECTS)
 
