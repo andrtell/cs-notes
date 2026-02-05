@@ -59,7 +59,6 @@ Make can deduce prerequisites and recipes in rules.
 objects = main.o extra.o
 
 program : $(objects)
-        cc -o program $(objects)
 
 main.o : defs.h
         
@@ -71,7 +70,31 @@ clean :
         rm edit $(objects)
 ```
 
-In the above example a recipe for compiling C is constructed from `$(CC) $(CPPFLAGS) $(CFLAGS) -c`.
+In the above Make transforms the rule:
+
+```makefile
+main.o : defs.h
+```
+
+into
+
+```makefile
+main.o : main.c defs.h
+        $(CC) $(CPPFLAGS) $(CFLAGS) -c main.c
+```
+
+and the rule:
+
+```makefile
+program : $(objects)
+```
+
+into
+
+```makefile
+program: $(objects)
+        $(CC) $(LDFLAGS) n.o $(LOADLIBES) $(LDLIBS)
+```
 
 
 
