@@ -3,40 +3,44 @@
 
 ----
 
+Simple Makefile
+
+----
 
 ```makefile
-edit : main.o kbd.o command.o
-        cc -o edit main.o kbd.o command.o
+program : main.o extra.o
+        cc -o program main.o extra.o
 
 main.o : main.c defs.h
         cc -c main.c
 
-kbd.o : kbd.c defs.h command.h
-        cc -c kbd.c
+extra.o : extra.c defs.h extra.h
+        cc -c extra.c
 
-command.o : command.c defs.h command.h
-        cc -c command.c
+.PHONY : clean
 
 clean :
-        rm edit main.o kbd.o command.o
+        rm program main.o extra.o
 
 ```
 
+----
+
+Make variables
+
+----
 
 ```makefile
-objects = main.o kbd.o command.o
+objects = main.o extra.o
 
-edit : $(objects)
-        cc -o edit $(objects)
+program : $(objects)
+        cc -o program $(objects)
 
 main.o : main.c defs.h
         cc -c main.c
 
-kbd.o : kbd.c defs.h command.h
-        cc -c kbd.c
-
-command.o : command.c defs.h command.h
-        cc -c command.c
+extra.o : extra.c defs.h extra.h
+        cc -c extra.c
 
 clean :
         rm edit $(objects)
