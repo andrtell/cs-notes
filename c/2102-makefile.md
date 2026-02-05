@@ -56,9 +56,14 @@ Make can deduce prerequisites and recipes in rules.
 ----
 
 ```makefile
-CFLAGS = -g -Wall -Wextra
+NAME          = myprogram
+CC            = gcc
+CFLAGS        = -g -Wall -Wextra 
+LDFLAGS       =
+SOURCES       = main.c extra.c
+OBJECTS       = $(SOURCES:.c=.o)
 
-main : extra.o
+main : $(OBJECTS)
 
 main.o : defs.h
 
@@ -67,7 +72,7 @@ extra.o : defs.h extra.h
 .PHONY : clean
 
 clean :
-        rm main main.o extra.o
+        rm main $(OBJECTS)
 ```
 
 In the above Make transforms the rule:
@@ -86,7 +91,7 @@ main.o : main.c defs.h
 and the rule:
 
 ```makefile
-main : extra.o
+main : main.o extra.o
 ```
 
 into
