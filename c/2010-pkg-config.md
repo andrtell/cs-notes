@@ -32,7 +32,9 @@ pkg-config --cflags --libs libcurl
 -I/usr/include/x86_64-linux-gnu -lcurl
 ```
 
-__Reference__
+----
+
+__References__
 
 _man 1 pkg-config_
 
