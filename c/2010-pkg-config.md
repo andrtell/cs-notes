@@ -24,7 +24,7 @@ _compile_
 cc main.c `pkg-config --cflags --libs libcurl`
 ```
 
-_observe_
+_observe output of pkg-config_
 
 ```sh
 pkg-config --cflags --libs libcurl
