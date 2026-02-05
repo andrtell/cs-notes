@@ -6,7 +6,7 @@ Dynamic memory (HEAP).
 
 ----
 
-__Program source__
+__The program__
 
 ```c
 // greet.c
