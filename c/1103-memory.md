@@ -6,7 +6,7 @@ Initialized static memory (.DATA)
 
 ----
 
-__Program source__
+__The program__
 
 ```c
 // greet.c
