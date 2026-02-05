@@ -6,7 +6,7 @@
 
 [Hello World](./1001-hello-world.md)
 
-[Basic Memory](./1101-basic-memory.md)
+[Basic Memory](./1101-memory.md)
 
 [Compile](./2001-compile.md)
 
