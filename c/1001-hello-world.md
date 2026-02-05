@@ -6,7 +6,7 @@ Hello, world!
 
 ----
 
-__Program source__
+__The program__
 
 ```c
 // hello.c
