@@ -2,6 +2,10 @@
 
 ----
 
+Using `pkg-config` to generate build dependencies
+
+----
+
 __The program__
 
 ```c
