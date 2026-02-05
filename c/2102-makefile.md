@@ -71,4 +71,7 @@ clean :
         rm edit $(objects)
 ```
 
-In the rule `main.o : defs.h` the prerequisite `main.c` and the recipe `cc -o main.o main.cc` is implicit.
+In the above example a recipe for compiling C is constructed from `$(CC) $(CPPFLAGS) $(CFLAGS) -c`.
+
+
+
