@@ -2,7 +2,7 @@
 
 ----
 
-Using `pkg-config` to generate build dependencies
+Using `pkg-config` to generate flags for build dependencies.
 
 ----
 
