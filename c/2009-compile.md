@@ -1,4 +1,4 @@
-[Index](./index.md) [Prev](./2008-compile.md) [Next](./2101-makefile.md)
+[Index](./index.md) [Prev](./2008-compile.md) [Next](./2010-pkg-config.md)
 
 ----
 
