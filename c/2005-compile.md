@@ -2,7 +2,7 @@
 
 ----
 
-Compiling a library / shared object.
+Compiling a library / shared object using the `-shared` flag.
 
 ----
 
