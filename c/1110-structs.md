@@ -113,3 +113,50 @@ _run_
 ./main
 p is: (1, 3)
 ```
+
+---
+
+Structs can be dynamically allocated.
+
+---
+
+```c
+// main.c
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Point {
+  int x;
+  int y;
+};
+
+int main() {
+   struct Point *p = malloc(sizeof(struct Point));
+
+  if (p == NULL) {
+    fprintf(stderr, "Memory allocation failed\n");
+    return 1;
+  }
+
+  p->x = 1;
+  p->y = 3;
+
+  printf("p is (%d, %d)\n", p->x, p->y);
+}
+```
+
+_compile_
+
+```sh
+cc -o main main.c
+```
+
+_run_
+
+```sh
+./main
+p is: (1, 3)
+```
+
+
