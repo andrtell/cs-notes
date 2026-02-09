@@ -2,7 +2,7 @@
 
 ----
 
-Struct type and value.
+Basic struct types and values.
 
 ----
 
@@ -38,7 +38,7 @@ Point is: (1, 3)
 
 ---
 
-Structs are copied on assignment.
+Structs are copied by value.
 
 ---
 
