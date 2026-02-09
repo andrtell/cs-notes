@@ -63,6 +63,8 @@ int main() {
 }
 ```
 
+_compile_
+
 ```sh
 cc -o main main.c
 ```
@@ -94,8 +96,20 @@ int main() {
   struct Point p = {.x = 1, .y = 3};
   struct Point *q = &p;
 
-  printf("p is (%d, %d)\n", q->x, q->y);
+  printf("p is (%d, %d)\n", q->x, (*q).y);  // q->x is (*q).x
 }
 
+```
 
+_compile_
+
+```sh
+cc -o main main.c
+```
+
+_run_
+
+```sh
+./main
+p is: (1, 3)
 ```
