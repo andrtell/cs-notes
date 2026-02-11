@@ -166,6 +166,8 @@ Stack implemented on-top of linked list.
 ---
 
 ```c
+// main.c
+
 #include <errno.h>
 #include <stdbool.h>
 #include <stddef.h>
@@ -329,4 +331,22 @@ int main() {
     perror("Failed to destroy stack");
   }
 }
+```
+
+_compile_
+
+```sh
+cc -o main main.c
+```
+
+_run_
+
+```sh
+./main
+Top element is: 13
+Popped element: 13
+Popped element: 11
+Popped element: 7
+Popped element: 3
+Popped element: 1
 ```
