@@ -161,7 +161,7 @@ p is: (1, 3)
 
 ---
 
-Stack implemented on-top of linked list.
+An integer stack implemented on-top of a linked list.
 
 ---
 
