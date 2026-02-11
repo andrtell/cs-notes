@@ -327,9 +327,9 @@ int main() {
 
 	ret = stack_destroy(&s);
 
-  if (ret == -1) {
-    perror("Failed to destroy stack");
-  }
+  	if (ret == -1) {
+    	perror("Failed to destroy stack");
+  	}
 }
 ```
 
