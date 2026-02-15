@@ -1,5 +1,7 @@
 # TTY & Terminals
 
+__DUMP__
+
 - Beginning Linux Programming (4th Edition)
 - Dan Gookin's Guide to Ncurses Programming
 - Ncurses Essentials: Core Concepts and Practical Techniques for Terminal UI Programming in C and Linux
