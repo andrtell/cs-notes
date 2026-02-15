@@ -15,3 +15,6 @@
   - [https://github.com/ggerganov/imtui](https://github.com/ggerganov/imtui)
   - [https://kannel.org/download/1.4.5/userguide-1.4.5/userguide.html#AEN993](https://kannel.org/download/1.4.5/userguide-1.4.5/userguide.html#AEN993)
   - [Hacking the Planet (with Notcurses) (PDF)](https://nick-black.com/htp-notcurses.pdf)
+  - [https://notcurses.com/](https://notcurses.com/)
+  - [https://github.com/rothgar/awesome-tuis](https://github.com/rothgar/awesome-tuis)
+  - [https://github.com/termbox/termbox2](https://github.com/termbox/termbox2)
