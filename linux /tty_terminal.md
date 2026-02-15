@@ -6,5 +6,12 @@
 - Advanced Programming in the UNIX Environment (3rd Edition). CHAPTER 18.
 - The Linux Programming Interface. CHAPTER 62.
 - Harley Hahn's Guide to Unix and Linux.
-
-- [NCURSES Programming HOWTO](https://tldp.org/HOWTO/pdf/NCURSES-Programming-HOWTO.pdf)
+- [NCURSES Programming HOWTO (PDF)](https://tldp.org/HOWTO/pdf/NCURSES-Programming-HOWTO.pdf)
+- [A Hacker's Guide to Ncurses Internals](https://invisible-island.net/ncurses/hackguide.html)
+- [Writing Programs with NCURSES](https://news.ycombinator.com/item?id=28354194)
+  - [Everything you ever wanted to know about terminals](http://xn--rpa.cc/irl/term.html)
+  - [Entering raw mode](https://viewsourcecode.org/snaptoken/kilo/02.enteringRawMode.html)
+  - [Wiki: ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors)
+  - [https://github.com/ggerganov/imtui](https://github.com/ggerganov/imtui)
+  - [https://kannel.org/download/1.4.5/userguide-1.4.5/userguide.html#AEN993](https://kannel.org/download/1.4.5/userguide-1.4.5/userguide.html#AEN993)
+  - [Hacking the Planet (with Notcurses) (PDF)](https://nick-black.com/htp-notcurses.pdf)
