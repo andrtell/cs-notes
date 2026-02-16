@@ -54,7 +54,9 @@ __Web__
 [The TTY Demystified](https://www.linusakesson.net/programming/tty/)
 
 
-[Bootlin: Linux serial drivers (PDF)](https://bootlin.com/doc/legacy/serial-drivers/linux-serial-drivers.pdf)
+[Linux serial drivers (PDF)](https://bootlin.com/doc/legacy/serial-drivers/linux-serial-drivers.pdf)
+
+[Build you own text editor](https://viewsourcecode.org/snaptoken/kilo/index.html) 
 
 
 __DUMP__
