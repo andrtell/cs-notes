@@ -13,6 +13,7 @@ __DUMP__
 - [Writing Programs with NCURSES (Ycombinator)](https://news.ycombinator.com/item?id=28354194)
   - [Everything you ever wanted to know about terminals](http://xn--rpa.cc/irl/term.html)
   - [Entering raw mode](https://viewsourcecode.org/snaptoken/kilo/02.enteringRawMode.html)
+    - [Part of: Build you own text editor](https://viewsourcecode.org/snaptoken/kilo/index.html) 
   - [Wiki: ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors)
   - [https://github.com/ggerganov/imtui](https://github.com/ggerganov/imtui)
   - [https://kannel.org/download/1.4.5/userguide-1.4.5/userguide.html#AEN993](https://kannel.org/download/1.4.5/userguide-1.4.5/userguide.html#AEN993)
