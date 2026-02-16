@@ -22,6 +22,12 @@ __Linux source__
 
 [n_tty.c (default line discipline)](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/tty/n_tty.c?h=v6.19)
 
+__man pages__
+
+[man 4 tty](https://man7.org/linux/man-pages/man4/tty.4.html)
+
+[man 7 pty](https://man7.org/linux/man-pages/man7/pty.7.html)
+
 __DUMP__
 
 - Beginning Linux Programming (4th Edition)
