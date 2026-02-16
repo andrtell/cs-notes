@@ -16,9 +16,9 @@ __Linux source__
 
 [/drivers/tty](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/tty?h=v6.19)
 
-[/drivers/tty/tty_io.c](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/tty/tty_io.c?h=v6.19)
+[tty_io.c](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/tty/tty_io.c?h=v6.19)
 
-[/drivers/tty/tty_ldisc.c (Line discipline)](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/tty/tty_ldisc.c?h=v6.19)
+[tty_ldisc.c (Line discipline)](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/tty/tty_ldisc.c?h=v6.19)
 
 __DUMP__
 
