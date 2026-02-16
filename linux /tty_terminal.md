@@ -40,6 +40,23 @@ _System calls (2)_
 
 [man 2 ioctl_tty](https://man7.org/linux/man-pages/man2/ioctl_tty.2.html)
 
+
+__Books__
+
+[The Linux Programming Interface (2010) by Michael Kerrisk (AMZ)](https://www.amazon.com/Linux-Programming-Interface-System-Handbook/dp/1593272200)
+
+Chapter 18 TTY Drivers
+
+[Advanced Programming in the UNIX Environment (APUE, 3rd ed) (AMZ)](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739)
+
+__Web__
+
+[The TTY Demystified](https://www.linusakesson.net/programming/tty/)
+
+
+[Bootlin: Linux serial drivers (PDF)](https://bootlin.com/doc/legacy/serial-drivers/linux-serial-drivers.pdf)
+
+
 __DUMP__
 
 - Beginning Linux Programming (4th Edition)
