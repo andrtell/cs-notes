@@ -2,7 +2,7 @@
 
 __Linux__
 
-[https://docs.kernel.org/driver-api/tty/index.html](https://docs.kernel.org/driver-api/tty/index.html)
+[TTY](https://docs.kernel.org/driver-api/tty/index.html)
 
 [TTY Line Discipline](https://docs.kernel.org/driver-api/tty/tty_ldisc.html)
 
