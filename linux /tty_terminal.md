@@ -24,9 +24,21 @@ __Linux source__
 
 __man pages__
 
+_Special files (4)_
+
 [man 4 tty](https://man7.org/linux/man-pages/man4/tty.4.html)
 
+_Misc (7)_
+
 [man 7 pty](https://man7.org/linux/man-pages/man7/pty.7.html)
+
+_Library calls (3)_
+
+[man 3 termios](https://man7.org/linux/man-pages/man3/termios.3.html)
+
+_System calls (2)_
+
+[man 2 ioctl_tty](https://man7.org/linux/man-pages/man2/ioctl_tty.2.html)
 
 __DUMP__
 
