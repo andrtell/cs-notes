@@ -6,6 +6,8 @@ __Linux__
 
 [TTY Line Discipline](https://docs.kernel.org/driver-api/tty/tty_ldisc.html)
 
+[N_TTY](https://docs.kernel.org/driver-api/tty/n_tty.html)
+
 __DUMP__
 
 - Beginning Linux Programming (4th Edition)
