@@ -20,6 +20,8 @@ __Linux source__
 
 [tty_ldisc.c (Line discipline)](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/tty/tty_ldisc.c?h=v6.19)
 
+[n_tty.c (default line discipline)](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/tty/n_tty.c?h=v6.19)
+
 __DUMP__
 
 - Beginning Linux Programming (4th Edition)
