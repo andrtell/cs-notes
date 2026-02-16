@@ -8,6 +8,8 @@ __The Linux Kernel__
 
 [N_TTY](https://docs.kernel.org/driver-api/tty/n_tty.html)
 
+[TTY Driver and TTY Options](https://docs.kernel.org/driver-api/tty/tty_driver.html)
+
 __DUMP__
 
 - Beginning Linux Programming (4th Edition)
