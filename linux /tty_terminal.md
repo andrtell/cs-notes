@@ -22,7 +22,7 @@ __Linux source__
 
 [n_tty.c (default line discipline)](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/tty/n_tty.c?h=v6.19)
 
-__man pages__
+__Man pages__
 
 _Special files (4)_
 
