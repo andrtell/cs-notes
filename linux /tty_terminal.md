@@ -1,6 +1,6 @@
 # TTY & Terminals
 
-__Linux__
+__The Linux Kernel__
 
 [TTY](https://docs.kernel.org/driver-api/tty/index.html)
 
